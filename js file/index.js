@@ -149,3 +149,16 @@ hr4.style.display="none"
 hr5.style.display="none"
 hr6.style.display=""
 }
+let menu = document.getElementById("menu")
+let menuImg = document.getElementById("menuImg")
+let con = document.getElementById("con")
+menu.style.display = ""
+con.style.display = "none"
+function showmenu(){
+  menuImg.style.display = "none"
+  con.style.display = ""
+}
+function cancelShow(){
+  menuImg.style.display = ""
+  con.style.display = "none"
+}
