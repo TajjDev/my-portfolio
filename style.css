@@ -187,7 +187,6 @@ a{
    transform: rotateY(180deg);
 }
 .flip-container,
-.front,
 .back,
 img #myProfile{
     width: 25%;
@@ -199,16 +198,12 @@ img #myProfile{
     position: relative;
     width: auto;
 }
-.front,
 .back {
     backface-visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
-}
-.front {
-    z-index: 2;
-}
+} 
 .back {
     transform: rotateY(180deg);
     background:transparent;
