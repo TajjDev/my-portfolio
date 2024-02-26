@@ -51,46 +51,87 @@ onehtml.style.display = "none"
 onecss.style.display = ""
 onejs.style.display = "none"
 onets.style.display = "none"
-}
+};
 function  backward() {
   onehtml.style.display = "none"
   onecss.style.display = "none"
   onejs.style.display = "none"
   onets.style.display = ""
-}
+};
 function forward1() {
   onehtml.style.display = "none"
   onecss.style.display = "none"
   onejs.style.display = ""
   onets.style.display = "none"
-}
+};
 function  backward1() {
   onehtml.style.display = ""
   onecss.style.display = "none"
   onejs.style.display = "none"
   onets.style.display = "none"
-}
+};
 function forward2() {
   onehtml.style.display = "none"
   onecss.style.display = "none"
   onejs.style.display = "none"
   onets.style.display = ""
-}
+};
 function  backward2() {
   onehtml.style.display = "none"
   onecss.style.display = ""
   onejs.style.display = "none"
   onets.style.display = "none"
-}
+};
 function forward3() {
   onehtml.style.display = ""
   onecss.style.display = "none"
   onejs.style.display = "none"
   onets.style.display = "none"
-}
+};
 function  backward3() {
   onehtml.style.display = "none"
   onecss.style.display = "none"
   onejs.style.display = ""
   onets.style.display = "none"
+};
+
+
+let imgFour = document.getElementById("imgFour");
+imgFour.style.display = ""
+function removea(){
+  imgFour.innerHTML = `<div id="imgFou">
+  <div class="rem"  id="imgrem1">
+  </div>
+  <div class="rem" id="imgrem3">
+  <img src="./images/certificate1.png" alt="" class="fourc" id="b">
+  </div>
+  <div class="rem" onclick="removeb()" id="imgrem2">
+  <img src="./images/certificate2.png" alt="" class="fourc" id="a">
+  </div>
+</div>`
+};
+function removeb(){
+  imgFour.innerHTML = `<div id="imgFou">
+  <div class="rem" onclick="removea()" id="imgrem1">
+      <img src="./images/certificate1.png" alt="" class="fourc" id="a">
+  </div>
+  <div class="rem" onclick="removeb()" id="imgrem3">
+      <img src="./images/certificate2.png" alt="" class="fourc" id="b">
+  </div>
+  <div class="rem" onclick="removec()" id="imgrem2">
+      <img src="./images/certificate3.png" alt="" class="fourc" id="a">
+  </div>
+</div>`
+}
+function removec(){
+  imgFour.innerHTML = `<div id="imgFou">
+  <div class="rem" onclick="removeb()" id="imgrem1">
+  <img src="./images/certificate2.png" alt="" class="fourc" id="a">
+  </div>
+  <div class="rem" onclick="removeb()" id="imgrem3">
+  <img src="./images/certificate3.png" alt="" class="fourc" id="b">
+  </div>
+  <div class="rem" onclick="removec()" id="imgrem2">
+  </div>
+</div>`
 }
