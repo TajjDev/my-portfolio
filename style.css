@@ -40,7 +40,7 @@ main{
     width: 90.6%;
     background-color:rgba(35, 39, 50, 1);
     border-radius: 24px;
-    margin: 50px 0 50px 0;
+    margin: 5% 0 5% 0;
     box-shadow: inset 12px 12px 20px rgba(0, 0, 0, 0.25),inset -7px -7px 20px rgba(255, 255, 255, 0.101);
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ main{
 
 }
 #one{
-    margin: 90px 0 90px 0;
+    margin: 9% 0 9% 0;
     width: 76%;
     height: auto;
     display: flex;
@@ -89,7 +89,7 @@ a{
     box-shadow:12px 12px 30px rgba(0, 0, 0, 0.25),-2px -2px 40px rgba(255, 255, 255, 0.101);
 }
 #pp{
-    margin-top: 100px;
+    margin-top: 10%;
     width: auto;
     height: 460px;
 }
@@ -104,7 +104,7 @@ img {
      height: 460px;
  }
 #myprofile2{
-    margin-top: 120px;
+    margin-top: 12%;
 }
 #texts{
     text-align: center;
@@ -124,7 +124,7 @@ img {
     font-weight: 600;
 }
 #p3{
-    margin-top: 20px;
+    margin-top: 2%;
     font-size: 1.313em;
     color: #ffffffbd;
     font-family: "poppins";
@@ -143,12 +143,12 @@ img {
 }
 
 #texts ul{
-    margin-top: 30px;
+    margin-top: 3%;
     display: flex;
     justify-content: center;
 }
 #texts .li{
-    margin-right: 70px;
+    margin-right: 7%;
 }
 #two{
     text-align: center;
@@ -169,7 +169,7 @@ img {
     font-size: 1.325em;
 }
 #three{
-    margin: 90px 0 90px 0;
+    margin: 9% 0 9% 0;
     width: 76%;
     display: flex;
     flex-direction: column;
@@ -178,6 +178,8 @@ img {
     width: auto;
     perspective: 1000;
     background: transparent;
+    display: flex;
+    align-items: center;
 }
 .flip-container:hover .flipper,
 .flip-container.hover .flipper {
@@ -187,8 +189,8 @@ img {
 .front,
 .back,
 img {
-    width: 200px;
-     height: 200px;
+    width: 25%;
+     height: 25%;
  }
 .flipper {
     transition: 1.5s;
@@ -243,7 +245,7 @@ img {
     display: flex;
     justify-content: end;
     font-size: 2.125em;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 #hr{
     width: 100%;
@@ -303,7 +305,7 @@ img {
     width:100% ;
 }
 #html{
-    margin-top: 50px;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -311,14 +313,14 @@ img {
     text-align: center;
 }
 .image{
-    margin-top: 100px;
+    margin-top: 10%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 .image img{
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
 }
 .image .fa-solid{
     border-radius: 10px;
@@ -373,12 +375,13 @@ img {
     rotate: 180deg;
 }
 #four{
-    margin: 90px 0 90px 0;
+    margin: 9% 0 9% 0;
     width: 76%;
     display: flex;
 }
-.thpFour{
+.certificates p{
     justify-content: start;
+    font-size: 2.125em;
 }
 #imgFour{
     margin-top: 12.3%;
