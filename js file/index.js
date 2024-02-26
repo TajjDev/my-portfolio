@@ -1,19 +1,3 @@
-// function changeImage(images) {
-//     let currentIndex = 0;
-//     const imageElement = document.getElementById('myImage'); // Replace 'myImage' with the actual ID of your image element
-//     setInterval(() => {
-//       currentIndex = (currentIndex + 1) % images.length;
-//       imageElement.src = images[currentIndex];
-//     }, 1000);
-//   }
-//   // Example usage:
-//   const imageUrls = [
-//     './images/hafsoh.png',
-//     './images/hafsop.png',
-//     './images/portfolio.png',
-//     './images/portfolioHome.png',
-//   ];
-//   changeImage(imageUrls);
 const textContents = [
     `<p id="myText">SOFTWARE <span class="t">E|</span><span id="remove">NGINEER</span></p>`,
     `<p id="myText">SOFTWARE <span class="t">EN|</span><span id="remove">GINEER</span></p>`,

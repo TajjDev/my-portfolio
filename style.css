@@ -7,7 +7,6 @@
     color: #fff;
     text-transform: capitalize;
 }
-
 body{
     background-color:rgba(36, 39, 44, 1) ;
     width: 100%;
@@ -20,10 +19,10 @@ body{
        transform: scale(1.2);
     }
 }
-.con{
+#con{
     display: none;
 }
-.menu{
+#menu{
     display: none;
 }
 /* img:hover{
