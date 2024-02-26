@@ -381,7 +381,7 @@ img {
     justify-content: start;
 }
 #imgFour{
-    margin-top: 123px;
+    margin-top: 12.3%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -408,12 +408,12 @@ img {
 #imgrem3{
     width: 50%;
 }
-.fourc{
-    height: 151px;
-    width: 215px;
-    border-radius: 20px;
+#imgFour img{
+    height:100%;
+    width: 90%;
+    border-radius: 7%;
 }
-#b{
-    width:400px ;
-    height: 279px;
+#imgFour #b{
+    width:90% ;
+    height: 100%;
 }
