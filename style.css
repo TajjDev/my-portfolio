@@ -91,7 +91,7 @@ a{
 #pp{
     margin-top: 10%;
     width: auto;
-    height: 460px;
+    height: auto;
 }
 #pp .back{
     width: 100%;
@@ -151,7 +151,7 @@ a{
 #two{
     text-align: center;
     display: flex;
-    width: 70%;
+    width: 76%;
     justify-content: space-between;
 }
 #ttext{
@@ -165,6 +165,9 @@ a{
 } 
 #ttext{
     font-size: 1.325em;
+}
+.p2{
+    display: none;
 }
 #three{
     margin: 9% 0 9% 0;
@@ -304,7 +307,55 @@ img #myProfile{
     border-radius: 33px;
     width:100% ;
 }
-#html{
+#onehr4{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:33.3% ;
+}
+#twohr4{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:66.6% ;
+}
+#hr4{
+    width: 100%;
+    display: flex;
+}
+#onehr5{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:33.3% ;
+}
+.twohr5{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:33.3% ;
+}
+#hr5{
+    width: 100%;
+    display: flex;
+}
+#onehr6{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:33.3% ;
+}
+#twohr6{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:66.6% ;
+}
+#hr6{
+    width: 100%;
+    display: flex;
+}
+.html{
     margin-top: 5%;
     display: flex;
     flex-direction: column;
@@ -327,6 +378,12 @@ img #myProfile{
     padding: 25px 10px 25px 10px;
     background-color: rgba(35, 39, 50, 1);
     box-shadow:inset -3px -3px 10px rgba(255, 255, 255, 0.1),inset 3px 3px 10px rgba(255, 255, 255, 0.1);
+}
+.image .fa-2xs{
+    display: none;
+}
+.image .fa-sm{
+    display: none;
 }
 .btn{
     width: auto;
@@ -375,7 +432,7 @@ img #myProfile{
     rotate: 180deg;
 }
 #four{
-    margin: 9% 0 9% 0;
+    margin: 0 0 9% 0;
     width: 76%;
     display: flex;
 }
@@ -419,4 +476,69 @@ img #myProfile{
 #imgFour #b{
     width:90% ;
     height: 100%;
+}
+@media screen and (max-width:768px) {
+    .image .fa-solid{
+        display: none;
+    }
+    .image .fa-2xs{
+        display: none;
+    }
+    .image .fa-sm{
+        display: flex;
+        padding: 17px 10px 17px 10px;
+    }
+
+}
+@media screen and (max-width:510px) {
+    .image .fa-solid{
+        display: none;
+    }
+    .image .fa-2xs{
+        display: flex;
+        padding: 12px 7px 12px 7px;
+    }
+    .image .fa-sm{
+        display: none;
+    }
+    .thp{
+        font-size: 1.063em;
+    }
+    #four .thpFour{
+        font-size: 1.063em;
+    }
+    #ht{
+        text-align: center;
+        padding: 7px 0 7px 0;
+        color: #fff;
+        font-size: 0.563em;
+    }
+    #cs{
+        text-align: center;
+        padding: 7px 0 7px 0;
+        color: #fff;
+        font-size: 0.563em;
+    }
+    #js{
+        text-align: center;
+        padding: 7px 0 7px 0;
+        color: #fff;
+        font-size: 0.563em;
+    }
+    #ts{
+        text-align: center; 
+        padding: 7px 0 7px 0;
+        color: #fff;
+        font-size: 0.563em;
+    }
+    #ttext h2{
+        font-size: 1.063em;
+    }
+    #ttext .p2{
+        display: flex;
+        font-size: 0.5em;
+    }
+    .p1{
+        display: none;
+    }
 }

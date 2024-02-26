@@ -95,7 +95,12 @@ function  backward3() {
   onets.style.display = "none"
 };
 
-
+let hr4 = document.getElementById("hr4")
+let hr5 = document.getElementById("hr5")
+let hr6 = document.getElementById("hr6")
+hr4.style.display="none"
+hr5.style.display=""
+hr6.style.display="none"
 let imgFour = document.getElementById("imgFour");
 imgFour.style.display = ""
 function removea(){
@@ -109,6 +114,9 @@ function removea(){
   <img src="./images/certificate2.png" alt="" class="fourc" id="a">
   </div>
 </div>`
+hr4.style.display=""
+hr5.style.display="none"
+hr6.style.display="none"
 };
 function removeb(){
   imgFour.innerHTML = `<div id="imgFou">
@@ -122,16 +130,22 @@ function removeb(){
       <img src="./images/certificate3.png" alt="" class="fourc" id="a">
   </div>
 </div>`
+hr4.style.display="none"
+hr5.style.display=""
+hr6.style.display="none"
 }
 function removec(){
   imgFour.innerHTML = `<div id="imgFou">
   <div class="rem" onclick="removeb()" id="imgrem1">
   <img src="./images/certificate2.png" alt="" class="fourc" id="a">
   </div>
-  <div class="rem" onclick="removeb()" id="imgrem3">
+  <div class="rem" id="imgrem3">
   <img src="./images/certificate3.png" alt="" class="fourc" id="b">
   </div>
   <div class="rem" onclick="removec()" id="imgrem2">
   </div>
 </div>`
+hr4.style.display="none"
+hr5.style.display="none"
+hr6.style.display=""
 }
