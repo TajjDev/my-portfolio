@@ -150,9 +150,11 @@ hr5.style.display="none"
 hr6.style.display=""
 }
 let menu = document.getElementById("menu")
+let main1 = document.getElementById("main")
 let menuImg = document.getElementById("menuImg")
 let con = document.getElementById("con")
 menu.style.display = ""
+main1.style.display = ""
 con.style.display = "none"
 function showmenu(){
   menuImg.style.display = "none"
@@ -160,5 +162,9 @@ function showmenu(){
 }
 function cancelShow(){
   menuImg.style.display = ""
+  con.style.display = "none"
+}
+function main(){
+  menu.style.display = ""
   con.style.display = "none"
 }
