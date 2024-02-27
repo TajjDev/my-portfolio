@@ -104,7 +104,7 @@ function removea(){
   <div class="rem"  id="imgrem1">
   </div>
   <div class="rem" id="imgrem3">
-  <img src="./images/certificate1.png" alt="" class="fourc" id="b">
+  <img src="./images/certificate1.png" alt="" class="fourc animate" id="b">
   </div>
   <div class="rem" onclick="removeb()" id="imgrem2">
   <img src="./images/certificate2.png" alt="" class="fourc" id="a">
@@ -117,13 +117,13 @@ hr6.style.display="none"
 function removeb(){
   imgFour.innerHTML = `<div id="imgFou">
   <div class="rem" onclick="removea()" id="imgrem1">
-      <img src="./images/certificate1.png" alt="" class="fourc" id="a">
+      <img src="./images/certificate1.png" alt="" class="fourc " id="a">
   </div>
   <div class="rem" onclick="removeb()" id="imgrem3">
-      <img src="./images/certificate2.png" alt="" class="fourc" id="b">
+      <img src="./images/certificate2.png" alt="" class="fourc animate" id="b">
   </div>
   <div class="rem" onclick="removec()" id="imgrem2">
-      <img src="./images/certificate3.png" alt="" class="fourc" id="a">
+      <img src="./images/certificate3.png" alt="" class="fourc " id="a">
   </div>
 </div>`
 hr4.style.display="none"
@@ -136,7 +136,7 @@ function removec(){
   <img src="./images/certificate2.png" alt="" class="fourc" id="a">
   </div>
   <div class="rem" id="imgrem3">
-  <img src="./images/certificate3.png" alt="" class="fourc" id="b">
+  <img src="./images/certificate3.png" alt="" class="fourc animate" id="b">
   </div>
   <div class="rem" onclick="removec()" id="imgrem2">
   </div>
@@ -172,6 +172,7 @@ function showmenu(){
 
 function cancelShow(){
   menuImg.style.display = ""
+  // con.style.transform = "translate(0, 100%)"
   con.style.display = "none"
   texts.style.filter = "blur(0)"
   about.style.filter = "blur(0)"
@@ -242,4 +243,28 @@ function removeG(){
   project.style.filter = "blur(0)"
   menu.style.display = ""
   menuImg.style.display = ""
+}
+let toTopAction = document.getElementById('toTopAction')
+let toTopp = document.getElementById('toTop')
+toTopAction.style.display = "none"
+toTopp.style.display = "none"
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop> 100 || document.documentElement.scrollTop > 100) {
+    toTopAction.style.display = "block";
+  } else {
+    toTopAction.style.display = "none";
+  }
+}
+
+
+function  toTop() {
+  toTopAction.style.display = "none"
+  toTopp.style.display = ""
+  setTimeout(() => {
+  toTopp.style.display = "none"
+  }, 1500);
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }

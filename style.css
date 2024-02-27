@@ -6,7 +6,56 @@
     width: 100%;
     color: #fff;
     text-transform: capitalize;
+    
 }
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    } 
+    to {
+        transform: scale(1)
+    }
+  }
+  
+.animate {
+    animation-name: animatezoom;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    } 
+    to {
+        -webkit-transform: scale(1)
+    }
+  }
+   
+@keyframes animatezoom1 {
+    from {
+        transform: translateX(100%);
+    } 
+    to {
+        transform: translateX(0);
+    }
+  }
+  
+.animate1 {
+    animation-name: animatezoom1;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+  }
+  
+  @-webkit-keyframes animatezoom1 {
+    from {
+        -webkit-transform: scale(0)
+    } 
+    to {
+        -webkit-transform: scale(1)
+    }
+  } 
+  
 body{
     background-color:rgba(36, 39, 44, 1) ;
     width: 100%;
@@ -25,14 +74,6 @@ body{
 #menu{
     display: none;
 }
-/* img:hover{
-    border: none;
-    border-radius: 10px;
-    animation-name: images;
-    animation-iteration-count: 1;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-} */
 li:hover{
     border: none;
     border-radius: 24px;
@@ -563,6 +604,13 @@ img #myProfile{
     font-size: 1em;
     z-index: 2;
 }
+#toUp img{
+    width: 55px;
+    position: fixed;
+    height: 65px;
+    bottom: 0;
+    right: 0;
+}
 @media screen and (max-width:1000px) {
     
     #click p{
@@ -585,6 +633,12 @@ img #myProfile{
         font-size: 0.8em;
         width: 35%;
         border-radius: 20px;
+    }#toUp img{
+        width: 42px;
+        position: fixed;
+        height: 52px;
+        bottom: 0;
+        right: 0;
     }
 }
 @media screen and (max-width:1157px) { 
@@ -594,6 +648,12 @@ img #myProfile{
     }   
     #head li a{
         font-size: 1em;
+    }#toUp img{
+        width: 50px;
+        position: fixed;
+        height: 60px;
+        bottom: 0;
+        right: 0;
     }
 }
 @media screen and (max-width:829px) { 
@@ -605,6 +665,13 @@ img #myProfile{
         font-size: 0.9em;
     }#click p{
         font-size: 0.7em;
+    }
+    #toUp img{
+        width: 48px;
+        position: fixed;
+        height: 58px;
+        bottom: 0;
+        right: 0;
     }
 }
 @media screen and (max-width:768px) {    
@@ -841,6 +908,12 @@ img #myProfile{
     }
     #prohrr{
         border: 1px solid rgba(247, 162, 30, 1);
+    }#toUp img{
+        width: 35px;
+        position: fixed;
+        height: 45px;
+        bottom: 0;
+        right: 0;
     }
 }
 @media screen and (max-width:501px) {    
@@ -1033,6 +1106,13 @@ img #myProfile{
         height: 100%;
         width: 92%;
 
+    }
+    #toUp img{
+        width: 30px;
+        position: fixed;
+        height: 40px;
+        bottom: 0;
+        right: 0;
     }
     
 }
