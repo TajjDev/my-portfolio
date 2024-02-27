@@ -146,9 +146,15 @@ hr5.style.display="none"
 hr6.style.display=""
 }
 
+let texts = document.getElementById("texts")
+let about = document.getElementById("about")
+let certificate = document.getElementById("certificate")
+let three = document.getElementById("three")
+let project = document.getElementById("project")
 let menu = document.getElementById("menu")
 let menuImg = document.getElementById("menuImg")
 let con = document.getElementById("con")
+let main = document.getElementById("main")
 
 menu.style.display = ""
 con.style.display = "none"
@@ -156,10 +162,23 @@ function showmenu(){
   menuImg.style.display = "none"
   con.style.display = ""
   con.style.zIndex = 5
+  texts.style.filter = "blur(5px)"
+  about.style.filter = "blur(5px)"
+  three.style.filter = "blur(5px)"
+  certificate.style.filter = "blur(5px)"
+  project.style.filter = "blur(5px)"
+  main.style.position = "fixed"
 }
+
 function cancelShow(){
   menuImg.style.display = ""
   con.style.display = "none"
+  texts.style.filter = "blur(0)"
+  about.style.filter = "blur(0)"
+  three.style.filter = "blur(0)"
+  certificate.style.filter = "blur(0)"
+  project.style.filter = "blur(0)"
+  main.style.position = ""
 }
 
 
