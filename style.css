@@ -967,5 +967,95 @@ img #myProfile{
         font-size: 0.5em;
         width: 40%;
     }
+    #onehr{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:25% ;
+    height:10px;
+}
+#twohr{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:75% ;
+    height:10px
+}
+#onehr1{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    width:50% ;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height:10px
+}
+#twohr1{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:50% ;
+    height:10px
+}
+#onehr2{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    width:75% ;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height:10px
+}
+#twohr2{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:25% ;
+    height:10px
+}
+#onehr3{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    width:100% ;
+    height:10px
+}
+#onehr4{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:33.3% ;
+    height:10px
+}
+#twohr4{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:66.6% ;
+    height:10px
+}
+#onehr5{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:33.3% ;
+    height:10px
+}
+.twohr5{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:33.3% ;
+    height:10px
+}
+#onehr6{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:33.3% ;
+    height:10px
+}
+#twohr6{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:66.6% ;
+    height:10px
+    }
     
 }
