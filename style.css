@@ -605,11 +605,11 @@ img #myProfile{
     z-index: 2;
 }
 #toUp img{
-    width: 55px;
+    width: 75px;
     position: fixed;
-    height: 65px;
-    bottom: 10px;
-    right: 0;
+    height: 85px;
+    bottom: 60px;
+    right: 50px;
 }
 @media screen and (max-width:1000px) {
     
@@ -633,12 +633,6 @@ img #myProfile{
         font-size: 0.8em;
         width: 35%;
         border-radius: 20px;
-    }#toUp img{
-        width: 42px;
-        position: fixed;
-        height: 52px;
-        bottom: 10px;
-        right: 0;
     }
 }
 @media screen and (max-width:1157px) { 
@@ -649,11 +643,11 @@ img #myProfile{
     #head li a{
         font-size: 1em;
     }#toUp img{
-        width: 50px;
+        width: 60px;
         position: fixed;
-        height: 60px;
-        bottom: 10px;
-        right: 0;
+        height: 70px;
+        bottom: 50px;
+        right: 50px;
     }
 }
 @media screen and (max-width:829px) { 
@@ -667,11 +661,11 @@ img #myProfile{
         font-size: 0.7em;
     }
     #toUp img{
-        width: 48px;
+        width: 58px;
         position: fixed;
-        height: 58px;
-        bottom: 10px;
-        right: 0;
+        height: 68px;
+        bottom: 38px;
+        right: 30px;
     }
 }
 @media screen and (max-width:768px) {    
@@ -909,11 +903,11 @@ img #myProfile{
     #prohrr{
         border: 1px solid rgba(247, 162, 30, 1);
     }#toUp img{
-        width: 35px;
+        width: 45px;
         position: fixed;
-        height: 45px;
-        bottom: 10px;
-        right: 0;
+        height: 55px;
+        bottom: 30px;
+        right: 25px;
     }
 }
 @media screen and (max-width:501px) {    
@@ -1108,11 +1102,11 @@ img #myProfile{
 
     }
     #toUp img{
-        width: 30px;
+        width: 40px;
         position: fixed;
-        height: 40px;
-        bottom: 10px;
-        right: 0;
+        height: 50px;
+        bottom: 20px;
+        right: 15px;
     }
     
 }
