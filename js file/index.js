@@ -1,12 +1,12 @@
 const textContents = [
-    `<p id="myText">SOFTWARE <span class="t">E|</span><span id="remove">NGINEER</span></p>`,
-    `<p id="myText">SOFTWARE <span class="t">EN|</span><span id="remove">GINEER</span></p>`,
-    `<p id="myText">SOFTWARE <span class="t">ENG|</span><span id="remove">INEER</span></p>`,
-    `<p id="myText">SOFTWARE <span class="t">ENGI|</span><span id="remove">NEER</span></p>`,
-    `<p id="myText">SOFTWARE <span class="t">ENGIN|</span><span id="remove">EER</span></p>`,
-    `<p id="myText">SOFTWARE <span class="t">ENGINE|</span><span id="remove">ER</span></p>`,
-    `<p id="myText">SOFTWARE <span class="t">ENGINEE|</span><span id="remove">R</span></p>`,
-    `<p id="myText">SOFTWARE <span class="t">ENGINEER|</span></p>`,
+    `<p id="myText">SOFTWARE <span class="y">E|</span><span id="remove">NGINEER</span></p>`,
+    `<p id="myText">SOFTWARE <span class="y">EN|</span><span id="remove">GINEER</span></p>`,
+    `<p id="myText">SOFTWARE <span class="y">ENG|</span><span id="remove">INEER</span></p>`,
+    `<p id="myText">SOFTWARE <span class="y">ENGI|</span><span id="remove">NEER</span></p>`,
+    `<p id="myText">SOFTWARE <span class="y">ENGIN|</span><span id="remove">EER</span></p>`,
+    `<p id="myText">SOFTWARE <span class="y">ENGINE|</span><span id="remove">ER</span></p>`,
+    `<p id="myText">SOFTWARE <span class="y">ENGINEE|</span><span id="remove">R</span></p>`,
+    `<p id="myText">SOFTWARE <span class="y">ENGINEER|</span></p>`,
   ];
   function changeText(texts) {
     let currentIndex = 0;
@@ -73,6 +73,18 @@ function forward3() {
   onets.style.display = "none"
 };
 function  backward3() {
+  onehtml.style.display = "none"
+  onecss.style.display = "none"
+  onejs.style.display = ""
+  onets.style.display = "none"
+};
+function forward4() {
+  onehtml.style.display = ""
+  onecss.style.display = "none"
+  onejs.style.display = "none"
+  onets.style.display = "none"
+};
+function  backward4() {
   onehtml.style.display = "none"
   onecss.style.display = "none"
   onejs.style.display = ""
@@ -148,4 +160,23 @@ function showmenu(){
 function cancelShow(){
   menuImg.style.display = ""
   con.style.display = "none"
+}
+
+
+
+let ppro = document.getElementById('ppro')
+let mm = document.getElementById('mm')
+mm.style.opacity = "1"
+ppro.style.display = ""
+ppro.innerHTML = ". "
+ppro.style.color ="rgba(0,0,0,0)"
+function over(){
+ ppro.innerHTML = "Click on image to explore website"
+ ppro.style.color ="#fff"
+ mm.style.opacity = "0.4"
+}
+function out(){
+  ppro.innerHTML = ". "
+  ppro.style.color ="rgba(0,0,0,0)"
+  mm.style.opacity = "1"
 }
