@@ -199,3 +199,47 @@ function out(){
   ppro.style.color ="rgba(0,0,0,0)"
   mm.style.opacity = "1"
 }
+function removeD(){
+  main.style.position = ""
+  con.style.display = "none"
+  texts.style.filter = "blur(0)"
+  about.style.filter = "blur(0)"
+  three.style.filter = "blur(0)"
+  certificate.style.filter = "blur(0)"
+  project.style.filter = "blur(0)"
+  menu.style.display = ""
+  menuImg.style.display = ""
+}
+function removeE(){
+  main.style.position = ""
+  con.style.display = "none"
+  texts.style.filter = "blur(0)"
+  about.style.filter = "blur(0)"
+  three.style.filter = "blur(0)"
+  certificate.style.filter = "blur(0)"
+  project.style.filter = "blur(0)"
+  menu.style.display = ""
+  menuImg.style.display = ""
+}
+function removeF(){
+  main.style.position = ""
+  con.style.display = "none"
+  texts.style.filter = "blur(0)"
+  about.style.filter = "blur(0)"
+  three.style.filter = "blur(0)"
+  certificate.style.filter = "blur(0)"
+  project.style.filter = "blur(0)"
+  menu.style.display = ""
+  menuImg.style.display = ""
+}
+function removeG(){
+  main.style.position = ""
+  con.style.display = "none"
+  texts.style.filter = "blur(0)"
+  about.style.filter = "blur(0)"
+  three.style.filter = "blur(0)"
+  certificate.style.filter = "blur(0)"
+  project.style.filter = "blur(0)"
+  menu.style.display = ""
+  menuImg.style.display = ""
+}
