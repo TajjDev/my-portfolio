@@ -43,7 +43,7 @@
   }
   @keyframes animatezoom2 {
       from {
-          transform: translateX(20%);
+          transform: translateX(15%);
       } 
       to {
           transform: translateX(0);
