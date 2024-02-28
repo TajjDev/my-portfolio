@@ -246,6 +246,34 @@ pro2.style.display = "none"
 function forward4() {
   pro.style.display = "none"
   pro1.style.display = ""
+  pro1.innerHTML = `<p class="thp">project</p>
+  <div class="hrp">
+      <hr id="prohr1">
+      <hr id="prohrr1">
+  </div>
+  <div  class="theProject animate1a">
+      <div class="pros">
+          <h2 id="stop">four card Featurs</h2>
+      </div>
+      <div class="imagePro">
+          <div onclick="backward5()" class="btn" >
+              <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+              <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+              <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+          </div>
+          <div onmouseout="out1()" onmouseover="over1()" class="img1 click">
+              <p id="ppro1"></p>
+              <a  href="https://four-card-feature-bzou.vercel.app/">
+                  <img id="mm1"  src="./images/four-card-features.png">
+              </a>
+          </div>
+          <div onclick="forward5()" class="btn" >
+              <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+              <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+              <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+          </div>
+      </div>
+  </div>`
 };
 function  backward4() {
 };
