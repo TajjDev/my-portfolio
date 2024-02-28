@@ -100,11 +100,11 @@ hr6.style.display="none"
 let imgFour = document.getElementById("imgFour");
 imgFour.style.display = ""
 function removea(){
-  imgFour.innerHTML = `<div class="animate1a" id="imgFou">
+  imgFour.innerHTML = `<div id="imgFou">
   <div class="rem"  id="imgrem1">
   </div>
   <div class="rem" id="imgrem3">
-  <img src="./images/certificate1.png" alt="" class="fourc" id="b">
+  <img src="./images/certificate1.png" alt="" class="fourc animate" id="b">
   </div>
   <div class="rem" onclick="removeb()" id="imgrem2">
   <img src="./images/certificate2.png" alt="" class="fourc" id="a">
@@ -115,15 +115,15 @@ hr5.style.display="none"
 hr6.style.display="none"
 };
 function removeb(){
-  imgFour.innerHTML = `<div class="" id="imgFou">
+  imgFour.innerHTML = `<div id="imgFou">
   <div class="rem" onclick="removea()" id="imgrem1">
-      <img src="./images/certificate1.png" alt="" class="fourc animatea" id="a">
+      <img src="./images/certificate1.png" alt="" class="fourc " id="a">
   </div>
   <div class="rem" onclick="removeb()" id="imgrem3">
-      <img src="./images/certificate2.png" alt="" class="fourc animatea" id="b">
+      <img src="./images/certificate2.png" alt="" class="fourc animate" id="b">
   </div>
   <div class="rem" onclick="removec()" id="imgrem2">
-      <img src="./images/certificate3.png" alt="" class="fourc animatea" id="a">
+      <img src="./images/certificate3.png" alt="" class="fourc " id="a">
   </div>
 </div>`
 hr4.style.display="none"
@@ -131,12 +131,12 @@ hr5.style.display=""
 hr6.style.display="none"
 }
 function removec(){
-  imgFour.innerHTML = `<div class="animate1" id="imgFou">
+  imgFour.innerHTML = `<div id="imgFou">
   <div class="rem" onclick="removeb()" id="imgrem1">
   <img src="./images/certificate2.png" alt="" class="fourc" id="a">
   </div>
   <div class="rem" id="imgrem3">
-  <img src="./images/certificate3.png" alt="" class="fourc" id="b">
+  <img src="./images/certificate3.png" alt="" class="fourc animate" id="b">
   </div>
   <div class="rem" onclick="removec()" id="imgrem2">
   </div>
@@ -251,12 +251,13 @@ toTopp.style.display = "none"
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    toTopAction.style.display = "";
+  if (document.body.scrollTop> 100 || document.documentElement.scrollTop > 100) {
+    toTopAction.style.display = "block";
   } else {
     toTopAction.style.display = "none";
   }
 }
+
 
 function  toTop() {
   toTopAction.style.display = "none"
