@@ -8,6 +8,98 @@ const textContents = [
     `<p id="myText">SOFTWARE <span class="y">ENGINEE|</span><span id="remove">R</span></p>`,
     `<p id="myText">SOFTWARE <span class="y">ENGINEER|</span></p>`,
   ];
+
+  // variables to be decleared later on
+let myFirst = `<p class="thp">project</p>
+<div class="hrp">
+    <hr id="prohr1">
+    <hr id="prohrr1">
+</div>
+<div  class="theProject animate2a">
+    <div class="pros">
+        <h2 id="stop">Stopwatch</h2>
+    </div>
+    <div class="imagePro">
+        <div onclick="backward5()" class="btn" >
+            <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+        <div onmouseout="out1()" onmouseover="over1()" class="img1 click">
+            <p id="ppro1"></p>
+            <a  href="https://stopwatch-five-mu.vercel.app/">
+                <img id="mm1"  src="./images/stopWatch.png">
+            </a>
+        </div>
+        <div onclick="forward5()" class="btn" >
+            <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+    </div>
+</div>` 
+let mySecond = `<p class="thp">project</p>
+<div id="hr">
+    <hr id="prohr">
+    <hr id="prohrr">
+</div>
+<div class="theProject animate2a">
+    <div class="pros">
+        <h2 id="hud">Huddle Landing Page</h2>
+    </div>
+    <div class="imagePro">
+        <div onclick="backward4()" class="btn" >
+            <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+        <div onmouseout="out()" onmouseover="over()" class="img click">
+            <p id="ppro"></p>
+            <a  href="https://huddle-landing-page-two-omega.vercel.app/">
+                <img id="mm"  src="images/huddleLandingPage.png">
+            </a>
+        </div>
+        <div onclick="forward4()" class="btn" >
+            <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+    </div>
+</div>`
+let MyimgFour1 = `<div id="imgFou">
+<div class="rem"  id="imgrem1">
+</div>
+<div class="rem" id="imgrem3">
+<img src="./images/certificate1.png" alt="" class="fourc animate" id="b">
+</div>
+<div class="rem" onclick="removeb()" id="imgrem2">
+<img src="./images/certificate2.png" alt="" class="fourc" id="a">
+</div>
+</div>`
+let MyimgFour2 = `<div id="imgFou">
+<div class="rem" onclick="removea()" id="imgrem1">
+    <img src="./images/certificate1.png" alt="" class="fourc " id="a">
+</div>
+<div class="rem" onclick="removeb()" id="imgrem3">
+    <img src="./images/certificate2.png" alt="" class="fourc animate" id="b">
+</div>
+<div class="rem" onclick="removec()" id="imgrem2">
+    <img src="./images/certificate3.png" alt="" class="fourc " id="a">
+</div>
+</div>`
+let MyimgFour3 = `<div id="imgFou">
+<div class="rem" onclick="removeb()" id="imgrem1">
+<img src="./images/certificate2.png" alt="" class="fourc" id="a">
+</div>
+<div class="rem" id="imgrem3">
+<img src="./images/certificate3.png" alt="" class="fourc animate" id="b">
+</div>
+<div class="rem" onclick="removec()" id="imgrem2">
+</div>
+</div>`
+
+// for the text with the color red that transition out the alphabet
+
   function changeText(texts) {
     let currentIndex = 0;
     const textElement = document.getElementById('myText');
@@ -22,6 +114,7 @@ const textContents = [
   }
   changeText(textContents);
 
+  // for the forward and backward button in the skill section
 let onehtml = document.getElementById('onehtml')
 let onecss = document.getElementById('onecss')
 let onejs = document.getElementById('onejs')
@@ -78,19 +171,8 @@ function  backward3() {
   onejs.style.display = ""
   onets.style.display = "none"
 };
-function forward4() {
-  onehtml.style.display = ""
-  onecss.style.display = "none"
-  onejs.style.display = "none"
-  onets.style.display = "none"
-};
-function  backward4() {
-  onehtml.style.display = "none"
-  onecss.style.display = "none"
-  onejs.style.display = ""
-  onets.style.display = "none"
-};
 
+// for the certificate function
 let hr4 = document.getElementById("hr4")
 let hr5 = document.getElementById("hr5")
 let hr6 = document.getElementById("hr6")
@@ -100,52 +182,25 @@ hr6.style.display="none"
 let imgFour = document.getElementById("imgFour");
 imgFour.style.display = ""
 function removea(){
-  imgFour.innerHTML = `<div id="imgFou">
-  <div class="rem"  id="imgrem1">
-  </div>
-  <div class="rem" id="imgrem3">
-  <img src="./images/certificate1.png" alt="" class="fourc animate" id="b">
-  </div>
-  <div class="rem" onclick="removeb()" id="imgrem2">
-  <img src="./images/certificate2.png" alt="" class="fourc" id="a">
-  </div>
-</div>`
+  imgFour.innerHTML = `${MyimgFour1}`
 hr4.style.display=""
 hr5.style.display="none"
 hr6.style.display="none"
 };
 function removeb(){
-  imgFour.innerHTML = `<div id="imgFou">
-  <div class="rem" onclick="removea()" id="imgrem1">
-      <img src="./images/certificate1.png" alt="" class="fourc " id="a">
-  </div>
-  <div class="rem" onclick="removeb()" id="imgrem3">
-      <img src="./images/certificate2.png" alt="" class="fourc animate" id="b">
-  </div>
-  <div class="rem" onclick="removec()" id="imgrem2">
-      <img src="./images/certificate3.png" alt="" class="fourc " id="a">
-  </div>
-</div>`
+  imgFour.innerHTML = `${MyimgFour2}`
 hr4.style.display="none"
 hr5.style.display=""
 hr6.style.display="none"
 }
 function removec(){
-  imgFour.innerHTML = `<div id="imgFou">
-  <div class="rem" onclick="removeb()" id="imgrem1">
-  <img src="./images/certificate2.png" alt="" class="fourc" id="a">
-  </div>
-  <div class="rem" id="imgrem3">
-  <img src="./images/certificate3.png" alt="" class="fourc animate" id="b">
-  </div>
-  <div class="rem" onclick="removec()" id="imgrem2">
-  </div>
-</div>`
+  imgFour.innerHTML = `${MyimgFour3}`
 hr4.style.display="none"
 hr5.style.display="none"
 hr6.style.display=""
 }
 
+//  for the transition and other function of the showMenu and cancleMenu
 let texts = document.getElementById("texts")
 let about = document.getElementById("about")
 let certificate = document.getElementById("certificate")
@@ -172,7 +227,6 @@ function showmenu(){
 
 function cancelShow(){
   menuImg.style.display = ""
-  // con.style.transform = "translate(0, 100%)"
   con.style.display = "none"
   texts.style.filter = "blur(0)"
   about.style.filter = "blur(0)"
@@ -182,14 +236,56 @@ function cancelShow(){
   main.style.position = ""
 }
 
+// for the forward and backward buttons in the project section
+let pro = document.getElementById("pro")
+let pro1 = document.getElementById("pro1")
+let pro2 = document.getElementById("pro2")
+pro.style.display = ""
+pro1.style.display = "none"
+pro2.style.display = "none"
+function forward4() {
+  pro.style.display = "none"
+  pro1.style.display = ""
+};
+function  backward4() {
+};
+function forward5() {
+  pro.style.display = "none"
+  pro1.style.display = "none"
+  pro2.style.display = ""
+};
+function  backward5() {
+  pro.style.display = ""
+  pro.innerHTML = `${mySecond}`
+  pro1.style.display = "none"
+};
+function forward6() {
+  pro.style.display = "none"
+  pro1.style.display = "none"
+  pro2.style.display = ""
+};
+function  backward6() {
+  pro.style.display = "none"
+  pro1.style.display = ""
+  pro1.innerHTML = `${myFirst}`
+  pro2.style.display = "none"
+};
 
-
+// for the mouse over effect in the project section
 let ppro = document.getElementById('ppro')
 let mm = document.getElementById('mm')
+let ppro1 = document.getElementById('ppro1')
+let mm1 = document.getElementById('mm1')
+let ppro2 = document.getElementById('ppro2')
+let mm2 = document.getElementById('mm2')
 mm.style.opacity = "1"
 ppro.style.display = ""
 ppro.innerHTML = ". "
 ppro.style.color ="rgba(0,0,0,0)"
+mm1.style.opacity = "1"
+ppro1.style.display = ""
+ppro1.innerHTML = ". "
+ppro1.style.color ="rgba(0,0,0,0)"
 function over(){
  ppro.innerHTML = "Click on image to explore website"
  ppro.style.color ="#fff"
@@ -200,6 +296,29 @@ function out(){
   ppro.style.color ="rgba(0,0,0,0)"
   mm.style.opacity = "1"
 }
+function over1(){
+  ppro1.innerHTML = "Click on image to explore website"
+  ppro1.style.color ="#fff"
+  mm1.style.opacity = "0.4"
+ }
+ function out1(){
+   ppro1.innerHTML = ". "
+   ppro1.style.color ="rgba(0,0,0,0)"
+   mm1.style.opacity = "1"
+ }
+ function over2(){
+   ppro2.innerHTML = "Click on image to explore website"
+   ppro2.style.color ="#fff"
+   mm2.style.opacity = "0.4"
+  }
+  function out2(){
+    ppro2.innerHTML = ". "
+    ppro2.style.color ="rgba(0,0,0,0)"
+    mm2.style.opacity = "1"
+  }
+
+
+  // for the onclick in the showMenu  nav
 function removeD(){
   main.style.position = ""
   con.style.display = "none"
@@ -244,6 +363,7 @@ function removeG(){
   menu.style.display = ""
   menuImg.style.display = ""
 }
+// for the airplane img to make it scroll back up after scrolling down a bit
 let toTopAction = document.getElementById('toTopAction')
 let toTopp = document.getElementById('toTop')
 toTopAction.style.display = "none"

@@ -43,7 +43,7 @@
   }
   @keyframes animatezoom2 {
       from {
-          transform: translateX(15%);
+          transform: translateX(20%);
       } 
       to {
           transform: translateX(0);
@@ -54,6 +54,32 @@
     animation-duration: 2s;
     -webkit-animation-duration: 2s;
     animation-delay: 0.6s;
+  }
+  @keyframes animatezoom2a {
+      from {
+          transform: translateX(-17%);
+      } 
+      to {
+          transform: translateX(0);
+      }
+    }
+  .animate2a {
+    animation-name: animatezoom2a;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+  }
+  @keyframes animatezoom1a {
+      from {
+          transform: translateX(17%);
+      } 
+      to {
+          transform: translateX(0);
+      }
+    }
+  .animate1a {
+    animation-name: animatezoom1a;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
   }
   @keyframes animatezoom3 {
       from {
@@ -311,6 +337,10 @@ img #myProfile{
     width: 100%;
     display: flex;
 }
+.hrp{
+    width: 100%;
+    display: flex;
+}
 #onehr{
     border: 2px solid rgba(119, 51, 255, 1);
     border-radius: 33px;
@@ -485,7 +515,7 @@ img #myProfile{
     width: 25%;
     border-radius: 30px;
 }
-#rotate{
+.rotate{
     rotate: 180deg;
 }
 #certificate{
@@ -546,17 +576,57 @@ img #myProfile{
     flex-direction: column;
     align-items: center;
 }
+#pro1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pro2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #prohr{
     border: 2px solid rgba(119, 51, 255, 1);
     border-radius: 33px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    width:25% ;
+    width:20% ;
 }
 #prohrr{
     border: 2px solid rgba(247, 162, 30, 1);
     border-radius: 33px;
-    width:75% ;
+    width:80% ;
+}
+
+#prohr1{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:40% ;
+}
+#prohrr1{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:60% ;
+}
+
+#prohr2{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:40% ;
+}
+#prohrr2{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:60% ;
 }
 .theProject{
     margin-top: 5%;
@@ -577,7 +647,25 @@ img #myProfile{
     font-weight: 600;
     background-color: rgba(119, 51, 255, 1);
     width: 35%;
-    border-radius: 20px;
+    border-radius: 30px;
+}
+#stop{
+    padding: 14px;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 600;
+    background-color: rgba(119, 51, 255, 1);
+    width: 25%;
+    border-radius: 30px;
+}
+#simple{
+    padding: 14px;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 600;
+    background-color: rgba(119, 51, 255, 1);
+    width: 55%;
+    border-radius: 30px;
 }
 .imagePro{
     display: flex;
@@ -590,7 +678,18 @@ img #myProfile{
     width: 60%;
     height: auto;
 }
+.imagePro .img1{
+    width: 60%;
+    height: auto;
+}
 .img img{
+    border-radius: 7%;
+    width: 100%;
+    width: 100%;
+    position: relative;
+    bottom:0 ;
+}
+.img1 img{
     border-radius: 7%;
     width: 100%;
     width: 100%;
@@ -609,7 +708,7 @@ img #myProfile{
     background-color: rgba(35, 39, 50, 1);
     box-shadow:inset -3px -3px 10px rgba(255, 255, 255, 0.1),inset 3px 3px 10px rgba(255, 255, 255, 0.1);
 }
-#click p{
+.click p{
     position: relative;
     top: 50px;
     color: rgba(119, 51, 255, 1);
@@ -626,7 +725,7 @@ img #myProfile{
 }
 @media screen and (max-width:1000px) {
     
-    #click p{
+    .click p{
         font-size: 0.8em;
     }
     .thp{
@@ -647,6 +746,18 @@ img #myProfile{
         width: 35%;
         border-radius: 20px;
     }
+    #stop{
+        padding: 10px 0 10px 0;
+        font-size: 0.8em;
+        width: 30%;
+        border-radius: 20px;
+    }
+    #simple{
+        padding: 10px 0 10px 0;
+        font-size: 0.8em;
+        width: 50%;
+        border-radius: 20px;
+    }
 }
 @media screen and (max-width:1157px) { 
     #head li{
@@ -662,6 +773,14 @@ img #myProfile{
         bottom: 50px;
         right: 50px;
     }
+    #hud{
+        color: #fff;
+        font-size: 1em;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 35%;
+        border-radius: 25px;
+    }
 }
 @media screen and (max-width:829px) { 
     #head li{
@@ -670,7 +789,7 @@ img #myProfile{
     }   
     #head li a{
         font-size: 0.9em;
-    }#click p{
+    }.click p{
         font-size: 0.7em;
     }
     #toUp img{
@@ -679,6 +798,29 @@ img #myProfile{
         height: 68px;
         bottom: 38px;
         right: 30px;
+    }
+    #hud{
+        color: #fff;
+        padding: 10px 0 10px 0;
+        font-size: 0.9em;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 35%;
+        border-radius: 25px;
+    }
+     #stop{
+        padding: 10px 0 10px 0;
+        font-size: 0.9em;
+        width: 35%;
+    }
+    #simple{
+        color: #fff;
+        padding: 10px 0 10px 0;
+        font-size: 0.9em;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 55%;
+        border-radius: 25px;
     }
 }
 @media screen and (max-width:768px) {    
@@ -922,6 +1064,25 @@ img #myProfile{
         bottom: 30px;
         right: 25px;
     }
+    #hud{
+        color: #fff;
+        font-size: 0.7em;
+        padding: 10px 0 10px 0;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 42%;
+        border-radius: 25px;
+    }
+    #stop{
+        padding: 10px 0 10px 0;
+        font-size: 0.7em;
+        width: 35%;
+    }
+    #simple{
+        padding: 10px 0 10px 0;
+        font-size: 0.7em;
+        width: 60%;
+    }
 }
 @media screen and (max-width:501px) {    
     main{
@@ -1097,13 +1258,23 @@ img #myProfile{
         padding: 12px 7px 12px 7px;
         border-radius: 5px;
     }
-    #click p{
+    .click p{
         font-size: 0.6em;
     }
     #hud{
         padding: 7px 0 7px 0;
         font-size: 0.5em;
-        width: 40%;
+        width: 42%;
+    }
+    #stop{
+        padding: 7px 0 7px 0;
+        font-size: 0.5em;
+        width: 35%;
+    }
+    #simple{
+        padding: 7px 0 7px 0;
+        font-size: 0.5em;
+        width: 58%;
     }
     .myprofile{
         height: 90%;
