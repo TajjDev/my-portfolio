@@ -10,7 +10,7 @@
 }
 @keyframes animatezoom {
     from {
-        transform: scale(0)
+        transform: scale(0);
     } 
     to {
         transform: scale(1)
@@ -22,16 +22,6 @@
     animation-duration: 0.5s;
     -webkit-animation-duration: 0.5s;
   }
-  
-  @-webkit-keyframes animatezoom {
-    from {
-        -webkit-transform: scale(0)
-    } 
-    to {
-        -webkit-transform: scale(1)
-    }
-  }
-   
 @keyframes animatezoom1 {
     from {
         transform: translateX(100%);
@@ -43,19 +33,36 @@
   
 .animate1 {
     animation-name: animatezoom1;
-    animation-duration: 0.5s;
-    -webkit-animation-duration: 0.5s;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
   }
-  
-  @-webkit-keyframes animatezoom1 {
-    from {
-        -webkit-transform: scale(0)
-    } 
-    to {
-        -webkit-transform: scale(1)
+  @keyframes animatezoom2 {
+      from {
+          transform: translateX(20%);
+      } 
+      to {
+          transform: translateX(0);
+      }
     }
-  } 
-  
+  .animate2 {
+    animation-name: animatezoom2;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+  }
+  @keyframes animatezoom3 {
+      from {
+          transform: translateX(-20%);
+      } 
+      to {
+          transform: translateX(0);
+      }
+    }
+  .animate3 {
+    animation-name: animatezoom3;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-delay: 1s;
+  }
 body{
     background-color:rgba(36, 39, 44, 1) ;
     width: 100%;
