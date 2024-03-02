@@ -169,7 +169,7 @@ nav  ul{
     align-items: center;
     width: 17%;
     background-color: rgba(36, 39, 44, 1);
-    box-shadow: -3px -3px 20px rgba(255, 255, 255, 0.09),3px 3px 25px rgba(0, 0, 0, 0.25);
+    box-shadow: -3px -3px 20px rgba(255, 255, 255, 0.09),3px 3px 25px rgba(0, 0, 0, 0.493);
 }
  ul li:hover{
     background-color: rgba(119, 51, 255, 1);
@@ -679,7 +679,7 @@ img #myProfile{
     font-weight: 600;
     background-color: rgba(119, 51, 255, 1);
     width: 55%;
-    border-radius: 30px;
+    border-radius: 45px;
 }
 .imagePro{
     display: flex;
@@ -1303,7 +1303,7 @@ img #myProfile{
     #simple{
         padding: 7px 0 7px 0;
         font-size: 0.5em;
-        width: 80%;
+        width: 40%;
     }
     .myprofile{
         height: 90%;
