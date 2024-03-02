@@ -397,10 +397,12 @@ let toTopAction = document.getElementById('toTopAction')
 let toTopp = document.getElementById('toTop')
 toTopAction.style.display = "none"
 toTopp.style.display = "none"
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+  scrollFunction()
+};
 
 function scrollFunction() {
-if (document.body.scrollTop> 100 || document.documentElement.scrollTop > 100) {
+if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
   toTopAction.style.display = "block";
 } else {
   toTopAction.style.display = "none";
@@ -414,6 +416,6 @@ toTopp.style.display = ""
 setTimeout(() => {
 toTopp.style.display = "none"
 }, 1500);
-document.body.scrollTop = 0; // For Safari
-document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+// document.body.scrollTop = 0; // For Safari
+// document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
