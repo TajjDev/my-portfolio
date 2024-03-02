@@ -274,7 +274,7 @@ pro2.style.display = "none"
 function forward4() {
   pro.style.display = "none"
   pro1.style.display = ""
-  pro1.innerHTML = `${myThird}
+  pro1.innerHTML = `${myThird}`
 };
 function  backward4() {
 };
