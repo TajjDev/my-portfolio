@@ -22,6 +22,20 @@
     animation-duration: 0.5s;
     -webkit-animation-duration: 0.5s;
   }
+@keyframes animatezoomNav {
+    from {
+        transform: translateX(100%);
+    } 
+    to {
+        transform: translateX(0);
+    }
+  }
+  
+.animate1 {
+    animation-name: animatezoom1;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+}
 @keyframes animatezoom1 {
     from {
         transform: translateX(30%);
