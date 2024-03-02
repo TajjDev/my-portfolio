@@ -15,9 +15,9 @@ let myFirst = `<p class="thp">project</p>
     <hr id="prohr1">
     <hr id="prohrr1">
 </div>
-<div  class="theProject animate2a">
+<div  class="theProject">
     <div class="pros">
-        <h2 id="stop">Stopwatch</h2>
+        <h2 class="animate2a" id="stop">Stopwatch</h2>
     </div>
     <div class="imagePro">
         <div onclick="backward5()" class="btn" >
@@ -25,7 +25,7 @@ let myFirst = `<p class="thp">project</p>
             <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
             <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
         </div>
-        <div onmouseout="out1()" onmouseover="over1()" class="img1 click">
+        <div onmouseout="out1()" onmouseover="over1()" class="img1 animate2a click">
             <p id="ppro1"></p>
             <a  href="https://four-card-feature-bzou.vercel.app/">
                 <img id="mm1"  src="./images/four-card-features.png">
@@ -43,9 +43,9 @@ let mySecond = `<p class="thp">project</p>
     <hr id="prohr">
     <hr id="prohrr">
 </div>
-<div class="theProject animate2a">
+<div class="theProject">
     <div class="pros">
-        <h2 id="hud">Huddle Landing Page</h2>
+        <h2 class="animate2a" id="hud">Huddle Landing Page</h2>
     </div>
     <div class="imagePro">
         <div onclick="backward4()" class="btn" >
@@ -53,7 +53,7 @@ let mySecond = `<p class="thp">project</p>
             <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
             <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
         </div>
-        <div onmouseout="out()" onmouseover="over()" class="img click">
+        <div onmouseout="out()" onmouseover="over()" class="img animate2a click">
             <p id="ppro"></p>
             <a  href="https://huddle-landing-page-two-omega.vercel.app/">
                 <img id="mm"  src="images/huddleLandingPage.png">
