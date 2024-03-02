@@ -635,12 +635,12 @@ img #myProfile{
     border-radius: 33px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    width:40% ;
+    width:60% ;
 }
 #prohrr2{
     border: 2px solid rgba(247, 162, 30, 1);
     border-radius: 33px;
-    width:60% ;
+    width:40% ;
 }
 .theProject{
     margin-top: 5%;
@@ -1071,7 +1071,22 @@ img #myProfile{
     }
     #prohrr{
         border: 1px solid rgba(247, 162, 30, 1);
-    }#toUp img{
+    }
+    
+    #prohr1{
+        border: 1px solid rgba(119, 51, 255, 1);
+    }
+    #prohrr1{
+        border: 1px solid rgba(247, 162, 30, 1);
+    }
+    
+    #prohr2{
+        border: 1px solid rgba(119, 51, 255, 1);
+    }
+    #prohrr2{
+        border: 1px solid rgba(247, 162, 30, 1);
+    }
+    #toUp img{
         width: 40px;
         position: fixed;
         height: 60px;
@@ -1288,7 +1303,7 @@ img #myProfile{
     #simple{
         padding: 7px 0 7px 0;
         font-size: 0.5em;
-        width: 58%;
+        width: 80%;
     }
     .myprofile{
         height: 90%;
@@ -1300,9 +1315,9 @@ img #myProfile{
 
     }
     #toUp img{
-        width: 35px;
+        width: 30px;
         position: fixed;
-        height: 50px;
+        height: 45px;
         bottom: 50px;
         right: 30px;
     }
