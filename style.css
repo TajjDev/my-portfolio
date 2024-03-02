@@ -24,7 +24,7 @@
   }
 @keyframes animatezoom1 {
     from {
-        transform: translateX(100%);
+        transform: translateX(30%);
     } 
     to {
         transform: translateX(0);
@@ -33,8 +33,8 @@
   
 .animate1 {
     animation-name: animatezoom1;
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
   }
   .animate4 {
     animation-name: animatezoom1;
@@ -43,7 +43,7 @@
   }
   @keyframes animatezoom2 {
       from {
-          transform: translateX(20%);
+          transform: translateX(30%);
       } 
       to {
           transform: translateX(0);
@@ -57,7 +57,7 @@
   }
   @keyframes animatezoom2a {
       from {
-          transform: translateX(-17%);
+          transform: translateX(-30%);
       } 
       to {
           transform: translateX(0);
@@ -70,7 +70,7 @@
   }
   @keyframes animatezoom1a {
       from {
-          transform: translateX(17%);
+          transform: translateX(30%);
       } 
       to {
           transform: translateX(0);
