@@ -121,9 +121,6 @@ body{
        transform: scale(1.2);
     }
 }
-#con{
-    display: none;
-}
 #sm{
     display: none;
 }
