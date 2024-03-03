@@ -17,7 +17,7 @@ let myFirst = `<p class="thp">project</p>
 </div>
 <div  class="theProject">
   <div class="pros">
-      <h2 class="animate2a" id="stop">Stopwatch</h2>
+      <h2 class="animate2a" id="stop">four card Featurs</h2>
   </div>
   <div class="imagePro">
       <div onclick="backward5()" class="btn" >
@@ -393,10 +393,8 @@ menu.style.display = ""
 menuImg.style.display = ""
 }
 // for the airplane img to make it scroll back up after scrolling down a bit
-let toTopAction = document.getElementById('toTopAction')
-let toTopp = document.getElementById('toTop')
+let toTopAction = document.getElementById('ToUpImg')
 toTopAction.style.display = "none"
-toTopp.style.display = "none"
 window.onscroll = function() {
   scrollFunction()
 };
@@ -412,10 +410,6 @@ if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 
 function  toTop() {
 toTopAction.style.display = "none"
-toTopp.style.display = ""
-setTimeout(() => {
-toTopp.style.display = "none"
-}, 1500);
 document.body.scrollTop = 0; // For Safari
 document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
