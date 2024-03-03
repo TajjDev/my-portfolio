@@ -57,7 +57,7 @@
   }
   @keyframes animatezoom2 {
       from {
-          transform: translateX(20%);
+          transform: translateY(-100%);
       } 
       to {
           transform: translateX(0);
@@ -65,9 +65,9 @@
     }
   .animate2 {
     animation-name: animatezoom2;
-    animation-duration: 2s;
-    -webkit-animation-duration: 2s;
-    animation-delay: 0.6s;
+    animation-duration: 0.8s;
+    -webkit-animation-duration: 0.8s;
+    /* animation-delay: 0.2s; */
   }
   @keyframes animatezoom2a {
       from {
