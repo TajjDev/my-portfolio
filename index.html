@@ -13,20 +13,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main id="main">       
+    <main id="main">  
+        <nav id="sm">               
+            <div onclick="showmenu()" id="menu">
+                <img src="./images/menu.png" id="menuImg" alt="">
+            </div>
+        </nav>     
         <section id="head">
             <nav id="blur1">
                 <ul>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="#contact">contact</a></li>
                     <li><a href="#three">skills</a></li>
                     <li><a href="#about">about</a></li>
                     <li><a href="#certificate">certificate</a></li>
                     <li><a href="#project">projects</a></li>
                 </ul>
-                <div onclick="showmenu()" id="menu">
-                    <img src="./images/menu.png" id="menuImg" alt="">
-                </div>
+                
             </nav>
+           
         </div>
         <div class="animateNav"  id="con">
             <div id="menuShow">
@@ -34,7 +38,7 @@
                     <img src="./images/canclemenu.png" alt="">
                 </div>
                 <ul>
-                    <li><a href="#">contact</a></li>
+                    <li><a onclick="removeH()" href="#contact">contact</a></li>
                     <li><a onclick="removeD()" href="#three">skills</a></li>
                     <li><a onclick="removeE()" href="#about">about</a></li>
                     <li><a onclick="removeF()" href="#certificate">certificate</a></li>
@@ -348,13 +352,32 @@
                 </div>
             </div>
         </section>
-        <section id="six"></section>
+        <section id="contact">
+            <div id="cont">   
+                <p class="thp conp">contact me</p>
+                <div class="hrp">
+                    <hr id="conthr">
+                </div>
+            </div>  
+            <div id="contactMe">
+                <div id="contimg">
+                    <img src="./images/contact.svg" alt="">
+                </div>
+                <div id="thecont">
+                    <form action="">
+                        <input placeholder="Name*" type="text" name="" class="the" id="name">
+                        <input placeholder="Email ID*" type="email" name="" class="the" id="email">
+                        <textarea placeholder="Message*" name="" id="message" cols="30" rows="10"></textarea>
+                        <button>send</button>
+                    </form>
+                </div>
+            </div>  
+        </section>
         <section id="seven"></section>
         <div onclick="toTop()" id="ToUpp">
                 <img src="./images/arrowUpp.png" id="ToUpImg" alt="">
         </div>
     </main>
-    <script src="./js file/index.js"></script>
-    <script src="./js file/module.js"></script>
+    <script src="./js file/index.js" defer></script>
 </body>
 </html>

@@ -238,6 +238,7 @@ let menu = document.getElementById("menu")
 let menuImg = document.getElementById("menuImg")
 let con = document.getElementById("con")
 let main = document.getElementById("main")
+let contact = document.getElementById("contact")
 
 menu.style.display = ""
 con.style.display = "none"
@@ -250,6 +251,7 @@ about.style.filter = "blur(5px)"
 three.style.filter = "blur(5px)"
 certificate.style.filter = "blur(5px)"
 project.style.filter = "blur(5px)"
+contact.style.filter = "blur(5px)"
 main.style.position = "fixed"
 }
 
@@ -261,6 +263,7 @@ about.style.filter = "blur(0)"
 three.style.filter = "blur(0)"
 certificate.style.filter = "blur(0)"
 project.style.filter = "blur(0)"
+contact.style.filter = "blur(0)"
 main.style.position = ""
 }
 
@@ -356,6 +359,7 @@ about.style.filter = "blur(0)"
 three.style.filter = "blur(0)"
 certificate.style.filter = "blur(0)"
 project.style.filter = "blur(0)"
+contact.style.filter = "blur(0)"
 menu.style.display = ""
 menuImg.style.display = ""
 }
@@ -367,6 +371,7 @@ about.style.filter = "blur(0)"
 three.style.filter = "blur(0)"
 certificate.style.filter = "blur(0)"
 project.style.filter = "blur(0)"
+contact.style.filter = "blur(0)"
 menu.style.display = ""
 menuImg.style.display = ""
 }
@@ -378,6 +383,7 @@ about.style.filter = "blur(0)"
 three.style.filter = "blur(0)"
 certificate.style.filter = "blur(0)"
 project.style.filter = "blur(0)"
+contact.style.filter = "blur(0)"
 menu.style.display = ""
 menuImg.style.display = ""
 }
@@ -389,6 +395,19 @@ about.style.filter = "blur(0)"
 three.style.filter = "blur(0)"
 certificate.style.filter = "blur(0)"
 project.style.filter = "blur(0)"
+contact.style.filter = "blur(0)"
+menu.style.display = ""
+menuImg.style.display = ""
+}
+function removeH(){
+main.style.position = ""
+con.style.display = "none"
+texts.style.filter = "blur(0)"
+about.style.filter = "blur(0)"
+three.style.filter = "blur(0)"
+certificate.style.filter = "blur(0)"
+project.style.filter = "blur(0)"
+contact.style.filter = "blur(0)"
 menu.style.display = ""
 menuImg.style.display = ""
 }
@@ -412,4 +431,16 @@ function  toTop() {
 toTopAction.style.display = "none"
 document.body.scrollTop = 0; // For Safari
 document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+
 }
+
+
+let name = document.getElementById("name")
+let email = document.getElementById("email")
+let message = document.getElementById("message")
+
+let person = {
+  name:`${email.value}`
+}
+console.log(person);

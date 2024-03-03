@@ -33,8 +33,8 @@
   
 .animateNav {
     animation-name: animatezoomNav;
-    animation-duration: 1.5s;
-    -webkit-animation-duration: 1.5s;
+    animation-duration: 0.7s;
+    -webkit-animation-duration: 0.7s;
 }
 @keyframes animatezoom1 {
     from {
@@ -124,6 +124,9 @@ body{
 #con{
     display: none;
 }
+#sm{
+    display: none;
+}
 #menu{
     display: none;
 }
@@ -136,7 +139,7 @@ li:hover{
     animation-timing-function: ease;
 }
 main{
-    width: 90.6%;
+    width: 86.5%;
     background-color:rgba(35, 39, 50, 1);
     border-radius: 24px;
     margin: 50px 0 50px 0;
@@ -734,11 +737,11 @@ img #myProfile{
     
     display: flex;
     justify-content: end;
-    width: 50px;
-    height:50px;
+    width: 45px;
+    height:45px;
     margin: 40px 40px 0 0;
     position: fixed;
-    right: 30px;
+    right: 53px;
     bottom: 55px;
 }
 #ToUpp img{
@@ -749,10 +752,106 @@ img #myProfile{
     padding: 5px;
     rotate: 270deg;
 }
-@media screen and (max-width:1157px) { 
+
+#contact{
+    margin: 0 0 9% 0;
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+}
+#contact .conp{
+    justify-content: start;
+}
+#conthr{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:100% ;
+}
+#cont{
+    margin-bottom: 15%;
+}
+#contactMe{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 410px;
+    align-items: flex-start;
+}
+#contimg{
+    width: 39%;
     
+}
+#thecont{
+    width: 49%;
+    height: 100%;
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#contimg img{
+    box-shadow:12px 12px 40px rgba(0, 0, 0, 0.513),-2px -2px 40px rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    height: 100%;
+    width: 100%;
+    
+}
+.the{
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.2),inset -2px -2px 5px rgba(255, 255, 255, 0.05);
+    height: 60px;
+    border: none;
+    background: none;
+    border-radius: 12px;
+    padding: 0 25px 0 25px;
+    font-weight: 500;
+    font-size: 1.375em;
+    width: 100%;
+}
+#message{
+    height: 171px; 
+    box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 0.15),inset -2px -2px 5px rgba(255, 255, 255, 0.05);
+    background: none;
+    border-radius: 12px;
+    padding: 15px 25px 0 25px;
+    border: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    resize: none;
+
+}
+form button{
+    width: 153px;
+    height: 56px;
+    border-radius: 24px;
+    border: none;
+    background: none;
+    box-shadow: -3px -3px 20px rgba(255, 255, 255, 0.09),3px 3px 25px rgba(0, 0, 0, 0.493);
+    font-size: 1.2em;
+}
+@media screen and (max-width:1157px) { 
+    #contactMe{
+        height: 360px;
+    }
+    .the{
+        height: 50px;
+        font-size: 1em;
+    }
+    #message{
+        font-size: 1em;
+        height: 131px; 
+    }
+    form button{
+        width: 133px;
+        height: 46px;
+        font-size: 1em;
+    }
     #ToUpp{
-        right: 17px;
+        right: 38px;
         width: 40px;
         height:40px;
         bottom: 55px;
@@ -792,7 +891,28 @@ img #myProfile{
     }
 }
 @media screen and (max-width:1000px) {
-    
+    #contactMe{
+        height: 290px;
+    }
+    .the{
+        height: 40px;
+        font-size: 0.75em;
+    }
+    #message{
+        font-size: 0.75em;
+        height: 121px; 
+    }
+    form button{
+        width: 123px;
+        height: 40px;
+        font-size: 0.6em;
+    }
+    #ToUpp{
+        right: 38px;
+        width: 40px;
+        height:40px;
+        bottom: 55px;
+    }
     .click p{
         font-size: 0.8em;
     }
@@ -826,15 +946,31 @@ img #myProfile{
         width: 50%;
         border-radius: 20px;
     }#ToUpp{
-        right: 15px;
+        right: 28px;
         width: 35px;
         height:35px;
         bottom: 55px;
     }
 }  
 @media screen and (max-width:829px) { 
+    #contactMe{
+        height: 250px;
+    }
+    .the{
+        height: 30px;
+        font-size: 0.7em;
+    }
+    #message{
+        font-size: 0.7em;
+        height: 111px; 
+    }
+    form button{
+        width: 100px;
+        height: 35px;
+        font-size: 0.5em;
+    }
     #ToUpp{
-        right: 5px;
+        right: 15px;
         width: 30px;
         height:30px;
         bottom: 55px;
@@ -876,8 +1012,42 @@ img #myProfile{
         border-radius: 25px;
     }
 }
-@media screen and (max-width:768px) {    
-    
+@media screen and (max-width:768px) {  
+    #sm{
+        display: flex;
+        width: 100%;
+    }
+    #contactMe{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    #contimg{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    #contimg img{
+        height: 100%;
+    }
+    .the{
+        height: 45px;
+        font-size: 0.85em;
+    }
+    #message{
+        font-size: 0.85em;
+        height: 121px; 
+    }
+    form button{
+        width: 100px;
+        height: 40px;
+        font-size: 0.8em;
+    } 
+    #thecont{
+        width: 100%;
+        height: 350px;
+    }
     main{
         box-shadow: inset 12px 12px 15px rgba(0, 0, 0, 0.2),inset -5px -5px 10px rgba(255, 255, 255, 0.072);
     }
@@ -997,19 +1167,15 @@ img #myProfile{
         justify-content: center;
         width: 30px;
         height:30px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 40px 40px 0 0;
         z-index: 5;
     }
     #cancelMenu{
-        
+        margin-top: 50px;
+        margin-right: 10.85%;
         display: flex;
         justify-content: end;
         width: 30px;
         height:30px;
-        margin: 40px 40px 0 0;
     }
     #cancelMenu img{
         width:100%;
@@ -1033,10 +1199,10 @@ img #myProfile{
         padding: 5px;
     }
     #ToUpp{
-        right: -5px;
+        right: 10px;
         width: 30px;
         height:30px;
-        bottom: 30px;
+        bottom: 60px;
     }
     #menuShow{
         display: flex;
@@ -1080,6 +1246,9 @@ img #myProfile{
     }
     #onehr1{
         border: 1px solid rgba(119, 51, 255, 1);
+    }
+    #conthr{
+        border: 1px solid rgba(247, 162, 30, 1);
     }
     #twohr1{
         border: 1px solid rgba(247, 162, 30, 1);
@@ -1270,21 +1439,15 @@ img #myProfile{
     #menu{
         display: flex;
         justify-content: center;
-        width: 30px;
-        height:30px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 25px 25px 0 0;
+        width: 25px;
+        height:25px;
         z-index: 5;
     }
     #cancelMenu{
-        
         display: flex;
         justify-content: end;
-        width: 30px;
-        height:30px;
-        margin: 25px 25px 0 0;
+        width: 25px;
+        height:25px;
     }
     #cancelMenu img{
         width:100%;
@@ -1361,9 +1524,26 @@ img #myProfile{
 
     }
     #ToUpp{
-        right: -15px;
+        right: -5px;
         width: 30px;
         height:30px;
-        bottom: 55px;
+        bottom: 50px;
     }
+    #thecont{
+        width: 100%;
+        height: 310px;
+    }
+    .the{
+        height: 40px;
+        font-size: 0.8em;
+    }
+    #message{
+        font-size: 0.8em;
+        height: 111px; 
+    }
+    form button{
+        width: 100px;
+        height: 35px;
+        font-size: 0.7em;
+    } 
 }
