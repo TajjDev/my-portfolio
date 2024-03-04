@@ -8,6 +8,13 @@
     text-transform: capitalize;
     
 }
+#learn{
+    Background-color:rgba(119, 51, 255, 1);
+}
+#contact{
+    background-color:none;
+    border:1px solid rgba(119, 51, 255, 1);
+}
 @keyframes animatezoom {
     from {
         transform: scale(0);
