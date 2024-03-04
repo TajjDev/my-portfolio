@@ -98,7 +98,7 @@ let MyimgFour1 = `<div id="imgFou">
 <div class="rem"  id="imgrem1">
 </div>
 <div class="rem" id="imgrem3">
-<img src="./images/certificate1.png" alt="" class="fourc animate" id="b">
+<img src="./Screenshot_20240304-113748.jpg" alt="" class="fourc animate" id="b">
 </div>
 <div class="rem" onclick="removeb()" id="imgrem2">
 <img src="./images/certificate2.png" alt="" class="fourc" id="a">
@@ -106,7 +106,7 @@ let MyimgFour1 = `<div id="imgFou">
 </div>`
 let MyimgFour2 = `<div id="imgFou">
 <div class="rem" onclick="removea()" id="imgrem1">
-  <img src="./images/certificate1.png" alt="" class="fourc " id="a">
+  <img src="./Screenshot_20240304-113748.jpg" alt="" class="fourc " id="a">
 </div>
 <div class="rem" onclick="removeb()" id="imgrem3">
   <img src="./images/certificate2.png" alt="" class="fourc animate" id="b">
