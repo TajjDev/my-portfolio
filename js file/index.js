@@ -303,51 +303,6 @@ pro1.innerHTML = `${myFirst}`
 pro2.style.display = "none"
 };
 
-// for the mouse over effect in the project section
-let ppro = document.getElementById('ppro')
-let mm = document.getElementById('mm')
-let ppro1 = document.getElementById('ppro1')
-let mm1 = document.getElementById('mm1')
-let ppro2 = document.getElementById('ppro2')
-let mm2 = document.getElementById('mm2')
-mm.style.opacity = "1"
-ppro.style.display = ""
-ppro.innerHTML = ". "
-ppro.style.color ="rgba(0,0,0,0)"
-mm1.style.opacity = "1"
-ppro1.style.display = ""
-ppro1.innerHTML = ". "
-ppro1.style.color ="rgba(0,0,0,0)"
-function over(){
-ppro.innerHTML = "Click on image to explore website"
-ppro.style.color ="#fff"
-mm.style.opacity = "0.4"
-}
-function out(){
-ppro.innerHTML = ". "
-ppro.style.color ="rgba(0,0,0,0)"
-mm.style.opacity = "1"
-}
-function over1(){
-ppro1.innerHTML = "Click on image to explore website"
-ppro1.style.color ="#fff"
-mm1.style.opacity = "0.4"
-}
-function out1(){
- ppro1.innerHTML = ". "
- ppro1.style.color ="rgba(0,0,0,0)"
- mm1.style.opacity = "1"
-}
-function over2(){
- ppro2.innerHTML = "Click on image to explore website"
- ppro2.style.color ="#fff"
- mm2.style.opacity = "0.4"
-}
-function out2(){
-  ppro2.innerHTML = ". "
-  ppro2.style.color ="rgba(0,0,0,0)"
-  mm2.style.opacity = "1"
-}
 
 
 // for the onclick in the showMenu  nav
