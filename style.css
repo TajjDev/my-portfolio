@@ -8,11 +8,24 @@
     text-transform: capitalize;
     
 }
+#arr{
+    width: 20px;
+    height: 20px;
+    rotate: 90deg;
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 50px;
+    padding: 1px;
+}
 #contactM{
+    height: 75px;
     background-color:none;
     border:1px solid rgba(119, 51, 255, 1);
-    border-radius: 30px;
+    border-radius: 50px;
     width: 30%;
+    font-size: 0.85em;
+}
+#contactM:hover{
+    background: none;
 }
 @keyframes animatezoom {
     from {
@@ -124,7 +137,7 @@ body{
 
 @keyframes images {
     from{
-       transform: scale(1.2);
+       transform: scale(1.1);
     }
 }
 #sm{
@@ -155,7 +168,7 @@ main{
 
 }
 #head{
-    margin: 9% 0 9% 0;
+    margin: 9% 0 5% 0;
     width: 76%;
     height: auto;
     display: flex;
@@ -842,7 +855,8 @@ form button{
     }
     #contactM{
         padding: 7px 15px 7px 15px;
-        width: 33%;
+        width: 25%;
+        height: 60px;
     }
     .the{
         height: 50px;
@@ -863,7 +877,7 @@ form button{
         height:40px;
         bottom: 55px;
     }
-    #head li{
+    nav li{
         height: 50px;
     }   
     #head li a{
@@ -898,6 +912,11 @@ form button{
     }
 }
 @media screen and (max-width:1000px) {
+    #contactM{
+        padding: 7px 15px 7px 15px;
+        width: 27%;
+        height: 60px;
+    }
     #contactMe{
         height: 290px;
     }
@@ -963,6 +982,7 @@ form button{
     #contactMe{
         height: 250px;
     }
+
     .the{
         height: 30px;
         font-size: 0.7em;
@@ -982,7 +1002,7 @@ form button{
         height:30px;
         bottom: 55px;
     }
-    #head li{
+    nav li{
         height: 37px;
     }   
     #head li a{
@@ -1018,13 +1038,23 @@ form button{
         border-radius: 25px;
     }
     #contactM{
-        width: 35%;
+        width: 30%;
+    }
+    #contactM img{
+        width: 18px;
+        height: 18px;
     }
 }
 @media screen and (max-width:768px) {  
     #contactM{
-        width: 40%;
-        font-size: 0.7em;
+        width: 36%;
+        font-size: 0.63em;
+        height: 47px;
+    }
+    #contactM img{
+        width: 14.4px;
+        height: 14.5px;
+        border: 1px solid rgba(119, 51, 255, 1);
     }
     #sm{
         display: flex;
@@ -1538,8 +1568,40 @@ form button{
         width: 100px;
         height: 35px;
         font-size: 0.7em;
-    } #contactM{
+    } 
+    #contactM{
         width: 45%;
-        font-size: 1.7vh;
+        font-size: 0.52em;
+        height: 45px;
+    }
+    #contactM img{
+        width: 14px;
+        height: 14px;
+    }
+}
+@media screen  and (max-width:350px) {
+    *{
+        font-size:12px;
+    }
+    #contactM{
+        width: 50%;
+        font-size: 0.5em;
+        height: 40px;
+    }#thecont{
+        height: 270px;
+    }
+    .the{
+        height: 40px;
+        font-size: 0.85em;
+    }
+    #message{
+        font-size: 0.85em;
+        height: 101px; 
+    }
+    #ToUpp{
+        right: -15px;
+        width: 25px;
+        height:25px;
+        bottom: 50px;
     }
 }
