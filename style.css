@@ -135,6 +135,9 @@ body{
     justify-content: center;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 @keyframes images {
     from{
        transform: scale(1.1);
