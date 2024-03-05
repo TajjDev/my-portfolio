@@ -27,6 +27,9 @@
 #contactM:hover{
     background: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 @keyframes animatezoom {
     from {
         transform: scale(0);
@@ -135,9 +138,6 @@ body{
     justify-content: center;
 }
 
-html{
-    scroll-behavior: smooth;
-}
 @keyframes images {
     from{
        transform: scale(1.1);
@@ -1048,7 +1048,11 @@ form button{
         height: 18px;
     }
 }
-@media screen and (max-width:768px) {  
+@media screen and (max-width:768px) {
+    #menuShow li{
+        margin-bottom: 20px;
+        font-size: 0.7em;
+    }  
     #contactM{
         width: 36%;
         font-size: 0.63em;
@@ -1363,7 +1367,11 @@ form button{
         width: 40%;
     }
 }
-@media screen and (max-width:501px) {    
+@media screen and (max-width:501px) {  
+    #menuShow li{
+        margin-bottom: 6px;
+        font-size: 0.65em;
+    }   
     main{
         box-shadow: inset 12px 12px 15px rgba(0, 0, 0, 0.2),inset -5px -5px 10px rgba(255, 255, 255, 0.072);
     }
@@ -1607,4 +1615,7 @@ form button{
         height:25px;
         bottom: 50px;
     }
+    #menuShow li{
+        margin-bottom: 3px;
+    }   
 }
