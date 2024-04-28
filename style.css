@@ -1766,7 +1766,7 @@ footer{
     }
     #con{
         width: 60%;
-        display: flex;
+        display: none;
         z-index: 4;
         position: fixed;
         top: 0;
