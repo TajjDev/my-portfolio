@@ -1,3 +1,4 @@
+
 const textContents = [
   `<p id="myText">SOFTWARE <span class="y">E|</span><span id="remove">NGINEER</span></p>`,
   `<p id="myText">SOFTWARE <span class="y">EN|</span><span id="remove">GINEER</span></p>`,
@@ -540,11 +541,11 @@ let con = document.getElementById("con")
 let main = document.getElementById("main")
 let contact = document.getElementById("contact")
 
-menu.style.display = ""
+menu.style.display = "flex"
 con.style.display = "none"
 function showmenu(){
 menuImg.style.display = "none"
-con.style.display = ""
+con.style.display = "flex"
 con.style.zIndex = 5
 texts.style.filter = "blur(5px)"
 about.style.filter = "blur(5px)"
@@ -556,7 +557,7 @@ main.style.position = "fixed"
 }
 
 function cancelShow(){
-menuImg.style.display = ""
+menuImg.style.display = "flex"
 con.style.display = "none"
 texts.style.filter = "blur(0)"
 about.style.filter = "blur(0)"
@@ -564,40 +565,44 @@ three.style.filter = "blur(0)"
 certificate.style.filter = "blur(0)"
 project.style.filter = "blur(0)"
 contact.style.filter = "blur(0)"
-main.style.position = ""
+main.style.position = "flex"
 }
 
 // for the forward and backward buttons in the project section
+
 let pro = document.getElementById("pro")
 let pro1 = document.getElementById("pro1")
 let pro2 = document.getElementById("pro2")
 let pro3 = document.getElementById("pro3")
 let pro4 = document.getElementById("pro4")
 let pro5 = document.getElementById("pro5")
-pro5.style.display = ""
+// window.onload = function() {
+pro5.style.display = "flex"
 pro.style.display = "none"
 pro1.style.display = "none"
 pro2.style.display = "none"
 pro4.style.display = "none"
 pro3.style.display = "none"
 
-function forward9() {
+
+
+ function forward9() {
   pro.style.display = "none"
   pro4.style.display = "none"
   pro5.style.display = "none"
   pro3.innerHTML = `${myFour2}`
   pro1.style.display = "none"
-  pro3.style.display = ""
+  pro3.style.display = "flex"
   pro2.style.display = "none"
   };
   function backward9() {
   pro5.style.display = "none"  
-  pro2.style.display = ""
+  pro2.style.display = "flex"
   pro2.innerHTML = `${myFive}`
   }
   function forward7() {
     pro.style.display = "none"
-    pro4.style.display = ""
+    pro4.style.display = "flex"
     pro4.innerHTML = `${mysix2}`
     pro1.style.display = "none"
     pro3.style.display = "none"
@@ -605,11 +610,11 @@ function forward9() {
     };
     function backward7() {
     pro3.style.display = "none"  
-    pro5.style.display = ""
+    pro5.style.display = "flex"
     pro5.innerHTML = `${myseven}`
     }
   function forward8() {
-    pro.style.display = ""
+    pro.style.display = "flex"
     pro.innerHTML= `${mySecond}`
     pro1.style.display = "none"
     pro3.style.display = "none"
@@ -618,16 +623,16 @@ function forward9() {
     };
     function backward8() {
     pro4.style.display = "none"  
-    pro3.style.display = ""
+    pro3.style.display = "flex"
     pro3.innerHTML = `${myFour}`
     }
 function forward4() {
 pro.style.display = "none"
-pro1.style.display = ""
+pro1.style.display = "flex"
 pro1.innerHTML = `${myThird}`
 };
 function  backward4() {
-  pro4.style.display = ""
+  pro4.style.display = "flex"
   pro4.innerHTML = `${mysix}`
   pro.style.display = "none"
 };
@@ -635,11 +640,11 @@ function forward5() {
 pro.style.display = "none"
 pro3.style.display = "none"
 pro1.style.display = "none"
-pro2.style.display = ""
+pro2.style.display = "flex"
 pro2.innerHTML = `${myFive2}`
 };
 function  backward5() {
-pro.style.display = ""
+pro.style.display = "flex"
 pro.innerHTML = `${mySecond2}`
 pro1.style.display = "none"
 };
@@ -648,11 +653,11 @@ pro.style.display = "none"
 pro2.style.display = "none"
 pro1.style.display = "none"
 pro5.innerHTML=`${myseven2}`
-pro5.style.display = ""
+pro5.style.display = "flex"
 };
 function  backward6() {
 pro.style.display = "none"
-pro1.style.display = ""
+pro1.style.display = "flex"
 pro1.innerHTML = `${myFirst}`
 pro2.style.display = "none"
 };

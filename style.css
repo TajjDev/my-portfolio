@@ -662,21 +662,21 @@ img #myProfile{
 #pro{
     width: 100%;
     height: auto;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
 #pro1{
     width: 100%;
     height: auto;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
 #pro2{
     width: 100%;
     height: auto;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
@@ -684,14 +684,14 @@ img #myProfile{
 #pro3{
     width: 100%;
     height: auto;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
 #pro4{
     width: 100%;
     height: auto;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
