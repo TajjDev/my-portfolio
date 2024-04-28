@@ -407,12 +407,12 @@ img #myProfile{
     border-radius: 33px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    width:25% ;
+    width:20% ;
 }
 #twohr{
     border: 2px solid rgba(247, 162, 30, 1);
     border-radius: 33px;
-    width:75% ;
+    width:80% ;
 }
 #hr1{
     width: 100%;
@@ -421,14 +421,14 @@ img #myProfile{
 #onehr1{
     border: 2px solid rgba(119, 51, 255, 1);
     border-radius: 33px;
-    width:50% ;
+    width:40% ;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 #twohr1{
     border: 2px solid rgba(247, 162, 30, 1);
     border-radius: 33px;
-    width:50% ;
+    width:60% ;
 }
 #hr2{
     width: 100%;
@@ -437,14 +437,23 @@ img #myProfile{
 #onehr2{
     border: 2px solid rgba(119, 51, 255, 1);
     border-radius: 33px;
-    width:75% ;
+    width:60% ;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 #twohr2{
     border: 2px solid rgba(247, 162, 30, 1);
     border-radius: 33px;
-    width:25% ;
+    width:40% ;
+}
+#hr2a{
+    width: 100%;
+    display: flex;
+}
+#onehr2a{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    width:100% ;
 }
 #hr3{
     width: 100%;
@@ -453,7 +462,18 @@ img #myProfile{
 #onehr3{
     border: 2px solid rgba(119, 51, 255, 1);
     border-radius: 33px;
-    width:100% ;
+    width:80%
+}
+#twohr3{
+        border: 2px solid rgba(247, 162, 30, 1);
+        border-radius: 33px;
+        width:20% ;
+
+}
+#onehr5{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    width:80% ;
 }
 #onehr4{
     border: 2px solid rgba(119, 51, 255, 1);
