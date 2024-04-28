@@ -387,6 +387,13 @@ img #myProfile{
     flex-direction: column;
     align-items: center;
 }
+#oners{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .thp{
     color: #fff;
     display: flex;
