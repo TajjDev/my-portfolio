@@ -565,7 +565,7 @@ three.style.filter = "blur(0)"
 certificate.style.filter = "blur(0)"
 project.style.filter = "blur(0)"
 contact.style.filter = "blur(0)"
-main.style.position = "flex"
+main.style.position = ""
 }
 
 // for the forward and backward buttons in the project section
