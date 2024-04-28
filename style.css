@@ -688,6 +688,20 @@ img #myProfile{
     flex-direction: column;
     align-items: center;
 }
+#pro4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pro5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #prohr{
     border: 2px solid rgba(119, 51, 255, 1);
     border-radius: 33px;
@@ -743,6 +757,18 @@ img #myProfile{
     border-radius: 33px;
     width:60% ;
 }
+#prohr5{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:10% ;
+}
+#prohrr5{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:90% ;
+}
 .theProject{
     margin-top: 5%;
     display: flex;
@@ -762,6 +788,15 @@ img #myProfile{
     font-weight: 600;
     background-color: rgba(119, 51, 255, 1);
     width: 35%;
+    border-radius: 30px;
+}
+#stop{
+    padding: 14px;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 600;
+    background-color: rgba(119, 51, 255, 1);
+    width: 30%;
     border-radius: 30px;
 }
 #todoR{
@@ -1009,6 +1044,14 @@ footer{
         width: 35%;
         border-radius: 25px;
     }
+    #stop{
+        color: #fff;
+        font-size: 1em;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 28%;
+        border-radius: 25px;
+    }
     #todoR{
         color: #fff;
         font-size: 1em;
@@ -1085,6 +1128,12 @@ footer{
         padding: 10px 0 10px 0;
         font-size: 0.8em;
         width: 35%;
+        border-radius: 20px;
+    }
+    #stop{
+        padding: 10px 0 10px 0;
+        font-size: 0.8em;
+        width: 25%;
         border-radius: 20px;
     }
     #todo{
@@ -1165,6 +1214,14 @@ footer{
         font-weight: 600;
         background-color: rgba(119, 51, 255, 1);
         width: 35%;
+        border-radius: 25px;
+    }#stop{
+        color: #fff;
+        padding: 10px 0 10px 0;
+        font-size: 0.9em;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 32%;
         border-radius: 25px;
     }
     #todo{
@@ -1472,6 +1529,9 @@ footer{
     #onehr2{ 
         border: 1px solid rgba(119, 51, 255, 1);
     }
+    #onehr2a{ 
+        border: 1px solid rgba(119, 51, 255, 1);
+    }
     #twohr2{
         border: 1px solid rgba(247, 162, 30, 1);
     }
@@ -1485,7 +1545,7 @@ footer{
     #onehr4{
         border: 1px solid rgba(119, 51, 255, 1);
     }
-    #twohr4{
+    #twohr3{
         border: 1px solid rgba(247, 162, 30, 1);
     }
     #hr4{
@@ -1530,6 +1590,18 @@ footer{
     #prohrr4{
         border: 1px solid rgba(247, 162, 30, 1);
     }
+    #prohr3{
+        border: 1px solid rgba(119, 51, 255, 1);
+    }
+    #prohrr3{
+        border: 1px solid rgba(247, 162, 30, 1);
+    }
+    #prohr5{
+        border: 1px solid rgba(119, 51, 255, 1);
+    }
+    #prohrr5{
+        border: 1px solid rgba(247, 162, 30, 1);
+    }
     #hud{
         color: #fff;
         font-size: 0.7em;
@@ -1537,6 +1609,15 @@ footer{
         font-weight: 600;
         background-color: rgba(119, 51, 255, 1);
         width: 42%;
+        border-radius: 25px;
+    }
+    #stop{
+        color: #fff;
+        font-size: 0.7em;
+        padding: 10px 0 10px 0;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 35%;
         border-radius: 25px;
     }
     #todo{
@@ -1753,7 +1834,11 @@ footer{
         font-size: 0.5em;
         width: 48%;
     }
-
+    #stop{
+        padding: 7px 0 7px 0;
+        font-size: 0.5em;
+        width: 40%;
+    }
     #todo{
         padding: 7px 0 7px 0;
         font-size: 0.5em;

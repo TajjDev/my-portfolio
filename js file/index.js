@@ -8,6 +8,63 @@ const textContents = [
   `<p id="myText">SOFTWARE <span class="y">ENGINEE|</span><span id="remove">R</span></p>`,
   `<p id="myText">SOFTWARE <span class="y">ENGINEER|</span></p>`,
 ];
+let myseven = `
+<p class="thp">project</p>
+<div class="hrp">
+    <hr id="prohr5">
+    <hr id="prohrr5">
+</div>
+<div class="theProject">
+    <div class="pros">
+        <h2 class="animate2a" id="stop">Online stopWatch</h2>
+    </div>
+    <div class="imagePro">
+        <div onclick="backward9()" class="btn" >
+            <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+        <div class="img animate2a click">
+            <p id="ppro"></p>
+            <a  href="https://stopwatch-five-mu.vercel.app/">
+                <img id="mm"  src="images/stopWatch.png">
+            </a>
+        </div>
+        <div onclick="forward9()" class="btn" >
+            <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+    </div>
+</div>`
+let myseven2 = ` <p class="thp">project</p>
+<div class="hrp">
+    <hr id="prohr5">
+    <hr id="prohrr5">
+</div>
+<div class="theProject">
+    <div class="pros">
+        <h2 class="animate1a" id="stop">Online stopWatch</h2>
+    </div>
+    <div class="imagePro">
+        <div onclick="backward9()" class="btn" >
+            <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+        <div class="img animate1a click">
+            <p id="ppro"></p>
+            <a  href="https://stopwatch-five-mu.vercel.app/">
+                <img id="mm"  src="images/stopWatch.png">
+            </a>
+        </div>
+        <div onclick="forward9()" class="btn" >
+            <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+    </div>
+</div>`
 let mysix = `<p class="thp">project</p>
 <div class="hrp">
     <hr id="prohr4">
@@ -516,25 +573,42 @@ let pro1 = document.getElementById("pro1")
 let pro2 = document.getElementById("pro2")
 let pro3 = document.getElementById("pro3")
 let pro4 = document.getElementById("pro4")
+let pro5 = document.getElementById("pro5")
+pro5.style.display = ""
 pro.style.display = "none"
 pro1.style.display = "none"
 pro2.style.display = "none"
 pro4.style.display = "none"
-pro3.style.display = ""
+pro3.style.display = "none"
 
-function forward7() {
+function forward9() {
   pro.style.display = "none"
-  pro4.style.display = ""
-  pro4.innerHTML = `${mysix2}`
+  pro4.style.display = "none"
+  pro5.style.display = "none"
+  pro3.innerHTML = `${myFour2}`
   pro1.style.display = "none"
-  pro3.style.display = "none"
+  pro3.style.display = ""
   pro2.style.display = "none"
   };
-  function backward7() {
-  pro3.style.display = "none"  
+  function backward9() {
+  pro5.style.display = "none"  
   pro2.style.display = ""
   pro2.innerHTML = `${myFive}`
-  }function forward8() {
+  }
+  function forward7() {
+    pro.style.display = "none"
+    pro4.style.display = ""
+    pro4.innerHTML = `${mysix2}`
+    pro1.style.display = "none"
+    pro3.style.display = "none"
+    pro2.style.display = "none"
+    };
+    function backward7() {
+    pro3.style.display = "none"  
+    pro5.style.display = ""
+    pro5.innerHTML = `${myseven}`
+    }
+  function forward8() {
     pro.style.display = ""
     pro.innerHTML= `${mySecond}`
     pro1.style.display = "none"
@@ -573,8 +647,8 @@ function forward6() {
 pro.style.display = "none"
 pro2.style.display = "none"
 pro1.style.display = "none"
-pro3.innerHTML=`${myFour2}`
-pro3.style.display = ""
+pro5.innerHTML=`${myseven2}`
+pro5.style.display = ""
 };
 function  backward6() {
 pro.style.display = "none"
