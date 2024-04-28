@@ -425,14 +425,14 @@ let onecss = document.getElementById('onecss')
 let onejs = document.getElementById('onejs')
 let onets = document.getElementById('onets')
 let oners = document.getElementById('oners')
-onehtml.style.display = ""
+onehtml.style.display = "flex"
 onecss.style.display = "none"
 onejs.style.display = "none"
 onets.style.display = "none"
 oners.style.display = "none"
 function forward() {
 onehtml.style.display = "none"
-onecss.style.display = ""
+onecss.style.display = "flex"
 onejs.style.display = "none"
 oners.style.display = "none"
 onets.style.display = "none"
@@ -441,18 +441,18 @@ function  backward() {
 onehtml.style.display = "none"
 onecss.style.display = "none"
 onejs.style.display = "none"
-oners.style.display = ""
+oners.style.display = "flex"
 onets.style.display = "none"
 };
 function forward1() {
 onehtml.style.display = "none"
 onecss.style.display = "none"
 oners.style.display = "none"
-onejs.style.display = ""
+onejs.style.display = "flex"
 onets.style.display = "none"
 };
 function  backward1() {
-onehtml.style.display = ""
+onehtml.style.display = "flex"
 onecss.style.display = "none"
 oners.style.display = "none"
 onejs.style.display = "none"
@@ -463,17 +463,17 @@ onehtml.style.display = "none"
 oners.style.display = "none"
 onecss.style.display = "none"
 onejs.style.display = "none"
-onets.style.display = ""
+onets.style.display = "flex"
 };
 function  backward2() {
 onehtml.style.display = "none"
 oners.style.display = "none"
-onecss.style.display = ""
+onecss.style.display = "flex"
 onejs.style.display = "none"
 onets.style.display = "none"
 };
 function forward2a() {
-onehtml.style.display = ""
+onehtml.style.display = "flex"
 oners.style.display = "none"
 onecss.style.display = "none"
 onejs.style.display = "none"
@@ -484,12 +484,12 @@ onehtml.style.display = "none"
 oners.style.display = "none"
 onecss.style.display = "none"
 onejs.style.display = "none"
-onets.style.display = ""
+onets.style.display = "flex"
 };
 function forward3() {
 onehtml.style.display = "none"
 onecss.style.display = "none"
-oners.style.display = ""
+oners.style.display = "flex"
 onejs.style.display = "none"
 onets.style.display = "none"
 };
@@ -497,7 +497,7 @@ function  backward3() {
 onehtml.style.display = "none"
 onecss.style.display = "none"
 oners.style.display = "none"
-onejs.style.display = ""
+onejs.style.display = "flex"
 onets.style.display = "none"
 };
 
@@ -506,27 +506,27 @@ let hr4 = document.getElementById("hr4")
 let hr5 = document.getElementById("hr5")
 let hr6 = document.getElementById("hr6")
 hr4.style.display="none"
-hr5.style.display=""
+hr5.style.display="flex"
 hr6.style.display="none"
 let imgFour = document.getElementById("imgFour");
-imgFour.style.display = ""
+imgFour.style.display = "flex"
 function removea(){
 imgFour.innerHTML = `${MyimgFour1}`
-hr4.style.display=""
+hr4.style.display="flex"
 hr5.style.display="none"
 hr6.style.display="none"
 };
 function removeb(){
 imgFour.innerHTML = `${MyimgFour2}`
 hr4.style.display="none"
-hr5.style.display=""
+hr5.style.display="flex"
 hr6.style.display="none"
 }
 function removec(){
 imgFour.innerHTML = `${MyimgFour3}`
 hr4.style.display="none"
 hr5.style.display="none"
-hr6.style.display=""
+hr6.style.display="flex"
 }
 
 //  for the transition and other function of the showMenu and cancleMenu
