@@ -22,7 +22,9 @@
     border-top-left-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
+input, textarea{
+    outline: none;
+}
 .icons {
     width: 30px;
 }
@@ -501,7 +503,7 @@ img #myProfile{
     width: 100%;
     display: flex;
 }
-.html{
+.skill{
     margin-top: 5%;
     display: flex;
     flex-direction: column;
@@ -557,6 +559,15 @@ img #myProfile{
     border-radius: 30px;
 }
 #js{
+    padding: 14px;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 600;
+    background-color: rgba(119, 51, 255, 1);
+    width: 25%;
+    border-radius: 30px;
+}
+#rs{
     padding: 14px;
     color: #fff;
     font-size: 1.25em;
@@ -649,17 +660,25 @@ img #myProfile{
     flex-direction: column;
     align-items: center;
 }
+
+#pro3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #prohr{
     border: 2px solid rgba(119, 51, 255, 1);
     border-radius: 33px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    width:20% ;
+    width:60% ;
 }
 #prohrr{
     border: 2px solid rgba(247, 162, 30, 1);
     border-radius: 33px;
-    width:80% ;
+    width:40% ;
 }
 
 #prohr1{
@@ -667,25 +686,42 @@ img #myProfile{
     border-radius: 33px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    width:40% ;
+    width:80% ;
 }
 #prohrr1{
     border: 2px solid rgba(247, 162, 30, 1);
     border-radius: 33px;
-    width:60% ;
+    width:20% ;
 }
 
 #prohr2{
     border: 2px solid rgba(119, 51, 255, 1);
     border-radius: 33px;
+    width:100% ;
+}
+#prohr3{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    width:60% ;
+    width:20% ;
 }
-#prohrr2{
+#prohrr3{
     border: 2px solid rgba(247, 162, 30, 1);
     border-radius: 33px;
+    width:80% ;
+}
+#prohr4{
+    border: 2px solid rgba(119, 51, 255, 1);
+    border-radius: 33px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     width:40% ;
+}
+#prohrr4{
+    border: 2px solid rgba(247, 162, 30, 1);
+    border-radius: 33px;
+    width:60% ;
 }
 .theProject{
     margin-top: 5%;
@@ -708,7 +744,26 @@ img #myProfile{
     width: 35%;
     border-radius: 30px;
 }
-#stop{
+#todoR{
+    padding: 14px;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 600;
+    background-color: rgba(119, 51, 255, 1);
+    width: 30%;
+    border-radius: 30px;
+}
+#card{
+    padding: 14px;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 600;
+    background-color: rgba(119, 51, 255, 1);
+    width: 30%;
+    border-radius: 30px;
+}
+
+#todo{
     padding: 14px;
     color: #fff;
     font-size: 1.25em;
@@ -934,7 +989,23 @@ footer{
         width: 35%;
         border-radius: 25px;
     }
-    #stop{
+    #todoR{
+        color: #fff;
+        font-size: 1em;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 30%;
+        border-radius: 25px;
+    }
+    #todo{
+        color: #fff;
+        font-size: 1em;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 30%;
+        border-radius: 25px;
+    }
+    #card{
         color: #fff;
         font-size: 1em;
         width: 30%;
@@ -985,7 +1056,7 @@ footer{
     #certificate .thpFour{
         font-size: 1.7em;
     }
-    #ht,#cs,#js,#ts{
+    #ht,#cs,#js,#rs,#ts{
         font-size: 0.9em;
         padding: 10px 0 10px 0;
         width: 20%;
@@ -996,7 +1067,19 @@ footer{
         width: 35%;
         border-radius: 20px;
     }
-    #stop{
+    #todo{
+        padding: 10px 0 10px 0;
+        font-size: 0.8em;
+        width: 20%;
+        border-radius: 20px;
+    }
+    #todoR{
+        padding: 10px 0 10px 0;
+        font-size: 0.8em;
+        width: 25%;
+        border-radius: 20px;
+    }
+    #card{
         padding: 10px 0 10px 0;
         font-size: 0.8em;
         width: 40%;
@@ -1064,7 +1147,26 @@ footer{
         width: 35%;
         border-radius: 25px;
     }
-     #stop{
+    #todo{
+        color: #fff;
+        padding: 10px 0 10px 0;
+        font-size: 0.9em;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 25%;
+        border-radius: 25px;
+    }
+    
+    #todoR{
+        color: #fff;
+        padding: 10px 0 10px 0;
+        font-size: 0.9em;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 29%;
+        border-radius: 25px;
+    }
+     #card{
         color: #fff;
         padding: 10px 0 10px 0;
         font-size: 0.9em;
@@ -1186,6 +1288,12 @@ footer{
         color: #fff;
         font-size: 0.7em;
         width: 30%;
+    }
+    #rs{
+        text-align: center; 
+        padding: 8px 0 8px 0;
+        color: #fff;
+        font-size: 0.7em;
     }
     #ts{
         text-align: center; 
@@ -1396,6 +1504,12 @@ footer{
     #prohrr2{
         border: 1px solid rgba(247, 162, 30, 1);
     }
+    #prohr4{
+        border: 1px solid rgba(119, 51, 255, 1);
+    }
+    #prohrr4{
+        border: 1px solid rgba(247, 162, 30, 1);
+    }
     #hud{
         color: #fff;
         font-size: 0.7em;
@@ -1405,7 +1519,25 @@ footer{
         width: 42%;
         border-radius: 25px;
     }
-    #stop{
+    #todo{
+        color: #fff;
+        font-size: 0.7em;
+        padding: 10px 0 10px 0;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width: 30%;
+        border-radius: 25px;
+    }
+    #todoR{
+        color: #fff;
+        font-size: 0.7em;
+        padding: 10px 0 10px 0;
+        font-weight: 600;
+        background-color: rgba(119, 51, 255, 1);
+        width:35%;
+        border-radius: 25px;
+    }
+    #card{
         padding: 10px 0 10px 0;
         font-size: 0.7em;
         width: 35%;
@@ -1467,14 +1599,21 @@ footer{
         padding: 7px 0 7px 0;
         color: #fff;
         font-size: 0.563em;
-        width: 50%;
+        width: 30%;
+    }
+    #rs{
+        text-align: center;
+        padding: 7px 0 7px 0;
+        color: #fff;
+        font-size: 0.563em;
+        width: 30%;
     }
     #ts{
         text-align: center; 
         padding: 7px 0 7px 0;
         color: #fff;
         font-size: 0.563em;
-        width: 50%;
+        width: 30%;
     }
     #ttext h2{
         font-size: 1.063em;
@@ -1594,7 +1733,18 @@ footer{
         font-size: 0.5em;
         width: 48%;
     }
-    #stop{
+
+    #todo{
+        padding: 7px 0 7px 0;
+        font-size: 0.5em;
+        width: 38%;
+    }
+    #todoR{
+        padding: 7px 0 7px 0;
+        font-size: 0.5em;
+        width: 43%;
+    }
+    #card{
         padding: 7px 0 7px 0;
         font-size: 0.5em;
         width: 45%;

@@ -8,8 +8,203 @@ const textContents = [
   `<p id="myText">SOFTWARE <span class="y">ENGINEE|</span><span id="remove">R</span></p>`,
   `<p id="myText">SOFTWARE <span class="y">ENGINEER|</span></p>`,
 ];
-
+let mysix = `<p class="thp">project</p>
+<div class="hrp">
+    <hr id="prohr4">
+    <hr id="prohrr4">
+</div>
+<div class="theProject">
+    <div class="pros">
+        <h2 class="animate2a" id="todoR">Todo with react</h2>
+    </div>
+    <div class="imagePro">
+        <div onclick="backward8()" class="btn" >
+            <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+        <div class="img animate2a click">
+            <p id="ppro"></p>
+            <a  href="https://to-do-with-react-omega.vercel.app/">
+                <img id="mm"  src="images/todoReact.png">
+            </a>
+        </div>
+        <div onclick="forward8()" class="btn" >
+            <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+    </div>
+</div>`
+let mysix2 = ` 
+<p class="thp">project</p>
+<div class="hrp">
+    <hr id="prohr4">
+    <hr id="prohrr4">
+</div>
+<div class="theProject">
+    <div class="pros">
+        <h2 class="animate1a" id="todoR">Todo with react</h2>
+    </div>
+    <div class="imagePro">
+        <div onclick="backward8()" class="btn" >
+            <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+        <div class="img animate1a click">
+            <p id="ppro"></p>
+            <a  href="https://to-do-with-react-omega.vercel.app/">
+                <img id="mm"  src="images/todoReact.png">
+            </a>
+        </div>
+        <div onclick="forward8()" class="btn" >
+            <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+    </div>
+</div>`
 // variables to be decleared later on
+let myFive = `<p class="thp">project</p>
+<div class="hrp">
+    <hr id="prohr2">
+</div>
+<div  class="theProject">
+    <div class="pros">
+        <h2 class="animate2a" id="simple">discount-sale-page</h2>
+    </div>
+    <div class="imagePro">
+        <div onclick="backward6()" class="btn" >
+            <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+        <div class="img1 animate2a click">
+            <p id="ppro2"></p>
+            <a href="https://result-summary-umber.vercel.app/">
+                <img id="mm2"  src="./images/summary-of-result.png">
+            </a>
+        </div>
+        <div onclick="forward6()" class="btn" >
+            <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+    </div>
+</div>`
+
+let myFive2 = `<p class="thp">project</p>
+<div class="hrp">
+    <hr id="prohr2">
+</div>
+<div  class="theProject">
+    <div class="pros">
+        <h2 class="animate1" id="simple">discount-sale-page</h2>
+    </div>
+    <div class="imagePro">
+        <div onclick="backward6()" class="btn" >
+            <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+        <div class="img1 animate1 click">
+            <p id="ppro2"></p>
+            <a href="https://result-summary-umber.vercel.app/">
+                <img id="mm2"  src="./images/summary-of-result.png">
+            </a>
+        </div>
+        <div onclick="forward6()" class="btn" >
+            <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+    </div>
+</div>`
+let myFour = `<p class="thp">project</p>
+<div class="hrp">
+    <hr id="prohr3">
+    <hr id="prohrr3">
+</div>
+<div class="theProject">
+    <div class="pros">
+        <h2 class="animate2a" id="todo">Todo with TS</h2>
+    </div>
+    <div class="imagePro">
+        <div onclick="backward7()" class="btn" >
+            <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+        <div class="img animate2a click">
+            <p id="ppro"></p>
+            <a  href="https://to-do-list-zeta-gold.vercel.app/">
+                <img id="mm"  src="images/todoTSBg.png">
+            </a>
+        </div>
+        <div onclick="forward7()" class="btn" >
+            <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+    </div>
+</div>`
+let four2 = `<p class="thp">project</p>
+<div class="hrp">
+    <hr id="prohr3">
+    <hr id="prohrr3">
+</div>
+<div class="theProject">
+    <div class="pros">
+        <h2 class="animate1a" id="todo">Todo with TS</h2>
+    </div>
+    <div class="imagePro">
+        <div onclick="backward7()" class="btn" >
+            <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+        <div class="img animate1a click">
+            <p id="ppro"></p>
+            <a  href="https://to-do-list-zeta-gold.vercel.app/">
+                <img id="mm"  src="images/todoTSBg.png">
+            </a>
+        </div>
+        <div onclick="forward7()" class="btn" >
+            <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+    </div>
+</div>`
+let myFour2 = `<p class="thp">project</p>
+<div class="hrp">
+    <hr id="prohr3">
+    <hr id="prohrr3">
+</div>
+<div class="theProject">
+    <div class="pros">
+        <h2 class="animate1" id="todo">Todo with TS</h2>
+    </div>
+    <div class="imagePro">
+        <div onclick="backward7()" class="btn" >
+            <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+        <div class="img animate1 click">
+            <p id="ppro"></p>
+            <a  href="https://to-do-list-zeta-gold.vercel.app/">
+                <img id="mm"  src="images/todoTSBg.png">
+            </a>
+        </div>
+        <div onclick="forward7()" class="btn" >
+            <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+            <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+        </div>
+    </div>
+</div>`
 let myFirst = `<p class="thp">project</p>
 <div class="hrp">
   <hr id="prohr1">
@@ -17,7 +212,7 @@ let myFirst = `<p class="thp">project</p>
 </div>
 <div  class="theProject">
   <div class="pros">
-      <h2 class="animate2a" id="stop">four card Featurs</h2>
+      <h2 class="animate2a" id="card">four card Featurs</h2>
   </div>
   <div class="imagePro">
       <div onclick="backward5()" class="btn" >
@@ -39,6 +234,34 @@ let myFirst = `<p class="thp">project</p>
   </div>
 </div>` 
 let mySecond = `<p class="thp">project</p>
+<div id="hr">
+  <hr id="prohr">
+  <hr id="prohrr">
+</div>
+<div class="theProject">
+  <div class="pros">
+      <h2 class="animate1a" id="hud">Huddle Landing Page</h2>
+  </div>
+  <div class="imagePro">
+      <div onclick="backward4()" class="btn" >
+          <i class="rotate fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+          <i class="rotate fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+          <i class="rotate fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+      </div>
+      <div onmouseout="out()" onmouseover="over()" class="img animate1a click">
+          <p id="ppro"></p>
+          <a  href="https://huddle-landing-page-two-omega.vercel.app/">
+              <img id="mm"  src="images/huddleLandingPage.png">
+          </a>
+      </div>
+      <div onclick="forward4()" class="btn" >
+          <i class="fa-solid fa-play fa-2xl" style="color: #7733ff;"></i>
+          <i class="fa-solid fa-play fa-2xs" style="color: #7733ff;"></i>
+          <i class="fa-solid fa-play fa-sm" style="color: #7733ff;"></i>
+      </div>
+  </div>
+</div>`
+let mySecond2 = `<p class="thp">project</p>
 <div id="hr">
   <hr id="prohr">
   <hr id="prohrr">
@@ -73,7 +296,7 @@ let myThird = `<p class="thp">project</p>
 </div>
 <div  class="theProject">
     <div class="pros">
-        <h2 class="animate1a" id="stop">four card Featurs</h2>
+        <h2 class="animate1a" id="card">four card Featurs</h2>
     </div>
     <div class="imagePro">
         <div onclick="backward5()" class="btn" >
@@ -131,10 +354,6 @@ let MyimgFour3 = `<div id="imgFou">
 function changeText(texts) {
   let currentIndex = 0;
   const textElement = document.getElementById('myText');
-  if (!textElement) {
-    console.error("Element with ID 'myText' not found.");
-    return;
-  }
   setInterval(() => {
     currentIndex = (currentIndex + 1) % texts.length;
     textElement.innerHTML = texts[currentIndex];
@@ -147,55 +366,79 @@ let onehtml = document.getElementById('onehtml')
 let onecss = document.getElementById('onecss')
 let onejs = document.getElementById('onejs')
 let onets = document.getElementById('onets')
+let oners = document.getElementById('oners')
 onehtml.style.display = ""
 onecss.style.display = "none"
 onejs.style.display = "none"
 onets.style.display = "none"
+oners.style.display = "none"
 function forward() {
 onehtml.style.display = "none"
 onecss.style.display = ""
 onejs.style.display = "none"
+oners.style.display = "none"
 onets.style.display = "none"
 };
 function  backward() {
 onehtml.style.display = "none"
 onecss.style.display = "none"
 onejs.style.display = "none"
-onets.style.display = ""
+oners.style.display = ""
+onets.style.display = "none"
 };
 function forward1() {
 onehtml.style.display = "none"
 onecss.style.display = "none"
+oners.style.display = "none"
 onejs.style.display = ""
 onets.style.display = "none"
 };
 function  backward1() {
 onehtml.style.display = ""
 onecss.style.display = "none"
+oners.style.display = "none"
 onejs.style.display = "none"
 onets.style.display = "none"
 };
 function forward2() {
 onehtml.style.display = "none"
+oners.style.display = "none"
 onecss.style.display = "none"
 onejs.style.display = "none"
 onets.style.display = ""
 };
 function  backward2() {
 onehtml.style.display = "none"
+oners.style.display = "none"
 onecss.style.display = ""
 onejs.style.display = "none"
 onets.style.display = "none"
 };
-function forward3() {
+function forward2a() {
 onehtml.style.display = ""
+oners.style.display = "none"
 onecss.style.display = "none"
+onejs.style.display = "none"
+onets.style.display = "none"
+};
+function  backward2a() {
+onehtml.style.display = "none"
+oners.style.display = "none"
+onecss.style.display = "none"
+onejs.style.display = "none"
+onets.style.display = ""
+};
+function forward3() {
+onehtml.style.display = "none"
+onecss.style.display = "none"
+oners.style.display = ""
 onejs.style.display = "none"
 onets.style.display = "none"
 };
 function  backward3() {
 onehtml.style.display = "none"
 onecss.style.display = "none"
+oners.style.display = "none"
 onejs.style.display = ""
 onets.style.display = "none"
 };
@@ -271,30 +514,67 @@ main.style.position = ""
 let pro = document.getElementById("pro")
 let pro1 = document.getElementById("pro1")
 let pro2 = document.getElementById("pro2")
-pro.style.display = ""
+let pro3 = document.getElementById("pro3")
+let pro4 = document.getElementById("pro4")
+pro.style.display = "none"
 pro1.style.display = "none"
 pro2.style.display = "none"
+pro4.style.display = "none"
+pro3.style.display = ""
+
+function forward7() {
+  pro.style.display = "none"
+  pro4.style.display = ""
+  pro4.innerHTML = `${mysix2}`
+  pro1.style.display = "none"
+  pro3.style.display = "none"
+  pro2.style.display = "none"
+  };
+  function backward7() {
+  pro3.style.display = "none"  
+  pro2.style.display = ""
+  pro2.innerHTML = `${myFive}`
+  }function forward8() {
+    pro.style.display = ""
+    pro.innerHTML= `${mySecond}`
+    pro1.style.display = "none"
+    pro3.style.display = "none"
+    pro2.style.display = "none"
+    pro4.style.display = "none"
+    };
+    function backward8() {
+    pro4.style.display = "none"  
+    pro3.style.display = ""
+    pro3.innerHTML = `${myFour}`
+    }
 function forward4() {
 pro.style.display = "none"
 pro1.style.display = ""
 pro1.innerHTML = `${myThird}`
 };
 function  backward4() {
+  pro4.style.display = ""
+  pro4.innerHTML = `${mysix}`
+  pro.style.display = "none"
 };
 function forward5() {
 pro.style.display = "none"
+pro3.style.display = "none"
 pro1.style.display = "none"
 pro2.style.display = ""
+pro2.innerHTML = `${myFive2}`
 };
 function  backward5() {
 pro.style.display = ""
-pro.innerHTML = `${mySecond}`
+pro.innerHTML = `${mySecond2}`
 pro1.style.display = "none"
 };
 function forward6() {
 pro.style.display = "none"
+pro2.style.display = "none"
 pro1.style.display = "none"
-pro2.style.display = ""
+pro3.innerHTML=`${myFour2}`
+pro3.style.display = ""
 };
 function  backward6() {
 pro.style.display = "none"
